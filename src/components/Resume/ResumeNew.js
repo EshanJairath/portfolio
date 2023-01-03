@@ -21,12 +21,13 @@ function ResumeNew() {
 
   return (
     <div>
+    <Particle />
       <Container fluid className="resume-section">
       <div className="container">
       <Row>
-     
-      <h2>Roles in which I am <span className="purple"> Currently Seeking Opportunities </span>-</h2>
       <hr/>
+      <h2>Roles in which I am <span className="purple"> Currently Seeking Opportunities </span>-</h2>
+      
       <ol>
         
         <li className="list_item_roles" >Machine Learning Engineer.</li>
@@ -42,7 +43,7 @@ function ResumeNew() {
       </Row>
       <hr/>
       </div>
-      <h1 className="text-center mt-5 pt-3"> My <strong className="purple"> CV</strong>👇</h1>
+      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV</strong>👇</h1>
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} height="1000" />

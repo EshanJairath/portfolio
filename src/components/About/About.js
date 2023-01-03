@@ -22,15 +22,16 @@ function About(props) {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
+        <hr/> 
+        <Col
             md={7}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
             }}
           >
-          <hr/>
+          
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
@@ -38,7 +39,7 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "10px", paddingBottom: "50px" }}
+            style={{ paddingTop: "16%", paddingBottom: "30px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />

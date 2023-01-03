@@ -13,20 +13,27 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Eshan Jairath </span>
-            from New Delhi, India
-            currenlty living in Newcastle Upon Tyne, United Kingdom.
-            I did my Bachelors in Computer Science Engineering from <a className="purple about_links" href = 'https://www.srmist.edu.in/'> SRM University</a> Sonipat, Delhi NCR and Masters in Artificial Intelligence from <a className="purple about_links" href="https://www.northumbria.ac.uk/?ds_rl=1265464&ds_rl=1265464&gclid=Cj0KCQiA14WdBhD8ARIsANao07iBcxrMUyHnbQWp0sObtO2Am1MUU4jY61bw7TUvrxP3DKxldoi23S8aAvYpEALw_wcB&gclsrc=aw.ds"> Northumbria University, NewCastle,</a> United Kingdom .
-            <br />
+            from New Delhi, India currenlty living in Newcastle Upon Tyne, United Kingdom. 
+            As a skilled individual, I have expertise in a range of fields related to computer science🧑‍💻 and artificial intelligence 🤖. I have a deep understanding of data structures and algorithms, with a strong background in programming, specifically in Python 🐍 and JavaScript. 
+            <br/>
+            </p>
+
+            <p style={{ textAlign: "justify" }}>
+            I am well-versed in a range of System analysis and design, machine learning, deep learning, computer vision, and hold a Master's degree in Artificial Intelligence 🎓 as well.
+            I have a strong specialization in developing web applications with machine learning API's. I have experience working with a variety of databases🗂️ including MongoDB, SQL, and Firebase, and am proficient in cloud technologies ☁️, specifically Microsoft Azure. <span  style={{ color: "cyan" }}> (which I am certified in) </span>🏅.<br/>
+            </p>
             
+            <p style={{ textAlign: "justify" }}>
+            This combination of skills and education makes me highly qualified to work on a wide range of projects involving machine learning, data analysis, data science, software development, and web development. I am well-equipped 💪 to tackle complex challenges and am dedicated to staying up-to-date with the latest developments in my field.
+            </p>
 
-          </p>
-          
-
-          
+      
+            <br/>
+            <p> Quote that keeps me going - </p>
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Life Only Make Sense When you force it to"{" "}
+            "Every Great Warrior was once a defenceless child, learning and waiting for his opportunity to incentivize the world."{" "}
           </p>
-          <footer className="blockquote-footer">Bruce Wayne</footer>
+          <footer className="blockquote-footer">Eshan Jairath</footer>
         </blockquote>
       </Card.Body>
     </Card>
