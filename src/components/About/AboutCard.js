@@ -34,7 +34,6 @@ function AboutCard() {
             " Every Great Warrior was once a defenceless child, continuously learning, evolving and waiting for his opportunity to incentivize the world with his 
             achievements."{" "}
           </p>
-          <br/>
           <footer className="blockquote-footer">Eshan Jairath</footer>
         </blockquote>
       </Card.Body>
