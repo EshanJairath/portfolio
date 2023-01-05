@@ -59,7 +59,7 @@ function About(props) {
           <Col md='10'>
           <p Style="font-size:1.8em" className="fw-bold list_grp_title ">Master's |  Post-Graduation</p>
           <a Style="font-size:1.3em" className="about_links" href="https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-artificial-intelligence-dtfari6/">
-          MSc. Artificial Intelligence, Northumbria University, Newcastle, United Kingdom
+          MSc. Artificial Intelligence, Northumbria University, Newcastle, United Kingdom. 🇬🇧
           </a>
           <p Style="font-size:1.2em" className="dark_color">2021- 2022</p>
           </Col>
@@ -89,7 +89,7 @@ function About(props) {
         <Col md='10'>
         <p Style="font-size:1.8em" className="fw-bold list_grp_title">Bachelors's |  Under-Graduation</p>
         <a Style="font-size:1.3em" href = 'https://www.srmist.edu.in/' className="about_links">
-        B. Tech. Computer Science Engineering, SRM University, Delhi NCR, India
+        B. Tech. Computer Science Engineering, SRM University, Delhi NCR, India. 🇮🇳
         </a>
         <p Style= "font-size:1.2em" className="dark_color" >2016 - 2020</p>
         </Col>
@@ -122,9 +122,12 @@ function About(props) {
         <p Style="font-size:1.8em" className="m-0 list_grp_org"> Northumbria University, Newcastle </p>
         <p Style="font-size:1.2em" className="dark_color">July 2022- Sept 2022</p>
         <ul className='m-3'>
-        <li className="about_list_item" Style="font-size:1.3em">Conducted academic research on flood extent prediction using geospatial data extracted from the google earth engine and build a machine-learning regression model which acquired an NSE (Nash–Sutcliffe model efficiency coefficient) of 0.83 and RMSE of 0.27.
+        <li className="about_list_item" Style="font-size:1.3em">Conducted academic research on flood extent prediction using geospatial data extracted from the google earth engine and build a machine-learning regression model which acquired an NSE (Nash–Sutcliffe model efficiency coefficient) of <span style={{ color: "green" }}>0.83</span>  and RMSE of <span style={{ color: "green" }}> 0.27</span>.
         </li>
         <li className="about_list_item" Style="font-size:1.3em">The main objective of this model was to predict floodwater percentages in the test region which can further allow disaster management to start evacuation of the regions with the highest flood percentage.</li>
+
+        <li className="about_list_item" Style="font-size:1.3em"> Marks Obtained : <span style={{ color: "green" }}>72</span>/100 <span className="dark_color">(Distinction)</span> *
+        </li>
         </ul>
         
       </div>
@@ -144,7 +147,7 @@ function About(props) {
         <li className="about_list_item" Style="font-size:1.3em">Gathering the necessary facial data, pre-processing it, training, testing, and evaluating the models in real-world 
         scenarios by detecting the faces of the team members in real time
         </li>
-        <li className="about_list_item" Style="font-size:1.3em">Boosted the Accuracy of the face detection algorithm to 91% on the testing data by choosing the right configuration 
+        <li className="about_list_item" Style="font-size:1.3em">Boosted the Accuracy of the face detection algorithm to <span style={{ color: "green" }}> 91%</span>  on the testing data by choosing the right configuration 
         of the necessary computer vision model and certain image pre-processing techniques.</li>
         </ul>
         
@@ -164,7 +167,7 @@ function About(props) {
       <ul className='m-3'>
       <li className="about_list_item" Style="font-size:1.3em">Developed system analysis reports and system designs in accordance with the requirements of the projects after closely collaborating with clients and various teams
       </li>
-      <li className="about_list_item" Style="font-size:1.3em">Reduced the workload of the entire team by 50% by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
+      <li className="about_list_item" Style="font-size:1.3em">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span>  by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
       </ul>
     </div>
     
