@@ -12,7 +12,7 @@ function Type() {
           "Software Engineer",
           "Web Developer",
           "MERN Stack Developer",
-          "Specialist in developing web applications with Machine Learning API's"
+          "Specialist in Developing web applications with Machine Learning API's"
         ],
         autoStart: true,
         loop: true,
