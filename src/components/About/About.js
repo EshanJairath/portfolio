@@ -117,7 +117,7 @@ function About(props) {
       className="d-flex justify-content-between align-items-start"
     >
       <div className=" me-auto">
-        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Academic Research 📚📈
+        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Academic Research 📚
         </p>
         <p Style="font-size:1.8em" className="m-0 list_grp_org"> Northumbria University, Newcastle 🇬🇧 </p>
         <p Style="font-size:1.2em" className="dark_color">July 2022- Sept 2022</p>
@@ -140,7 +140,7 @@ function About(props) {
       className="d-flex justify-content-between align-items-start"
     >
       <div className=" me-auto">
-        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Junior AI Engineer 🤖👷‍♂️
+        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Junior AI Engineer 🤖
         </p>
         <p Style="font-size:1.6em" className="m-0 list_grp_org"> Print it Out, New Delhi, India 🇮🇳 </p>
         <p Style="font-size:1.2em" className="dark_color"> May 2021 – Aug 2021</p>
@@ -162,7 +162,7 @@ function About(props) {
     className="d-flex justify-content-between align-items-start"
   >
     <div className=" me-auto">
-      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Software Engineer 🧑‍💻📊
+      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Software Engineer 🧑‍💻
       </p>
       <p Style="font-size:1.6em" className="m-0 list_grp_org">Pixxmo, New Delhi, India 🇮🇳 </p>
       <p Style="font-size:1.2em" className="dark_color"> Nov 2020 – May 2021</p>
@@ -170,7 +170,7 @@ function About(props) {
       <li className="about_list_item" Style="font-size:1.3em">Developed system analysis reports and system designs in accordance with the requirements of the projects after closely collaborating with clients and various teams
       </li>
       <br/>
-      <li className="about_list_item" Style="font-size:1.3em">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span>  by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
+      <li className="about_list_item" Style="font-size:1.3em">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span> 📉 by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
       </ul>
     </div>
     
