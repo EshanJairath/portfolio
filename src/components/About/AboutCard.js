@@ -31,8 +31,7 @@ function AboutCard() {
             <br/>
             <p className="about_text" > What keeps me going - </p>
           <p className="about_text" style={{ color: "rgb(155 126 172)" }}>
-            " Every Great Warrior was once a defenceless child, continuously learning, evolving and waiting for his opportunity to incentivize the world with his 
-            achievements."{" "}
+            " Every Great Warrior was once a defenceless child, continuously learning, evolving and waiting for his opportunity to incentivize the world. " {" "}
           </p>
           <footer className="blockquote-footer">Eshan Jairath</footer>
         </blockquote>

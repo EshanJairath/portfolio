@@ -26,24 +26,24 @@ function ResumeNew() {
       <div className="container">
       <Row>
       <hr/>
-      <h2>Roles in which I am <span className="purple"> Currently Seeking Opportunities </span>-</h2>
+      <h2>Roles in which I am <span className="purple"> Currently Seeking Opportunities 🕵️ </span>-</h2> 
       <hr/>
       <ul className="purple">
         
-        <li className="list_item_roles" > <span style={{color: 'white'}}> Machine Learning Engineer</span>.</li>
-        <li className="list_item_roles" > <span style={{color: 'white'}}>  Data Scientist</span>.</li> 
-        <li className="list_item_roles" > <span style={{color: 'white'}}> Data Engineer</span>.</li> 
-        <li className="list_item_roles" > <span style={{color: 'white'}}> Data Analyst</span>.</li>
-        <li className="list_item_roles" > <span style={{color: 'white'}}> Software Engineer</span>.</li>
-        <li className="list_item_roles" > <span style={{color: 'white'}}> Web Developer</span>.</li> 
-        <li className="list_item_roles" > <span style={{color: 'white'}}> MERN Stack Developer</span>.</li> 
+        <li className="list_item_roles" > <span style={{color: 'white'}}> Machine Learning Engineer </span></li> 
+        <li className="list_item_roles" > <span style={{color: 'white'}}>  Data Scientist </span></li>  
+        <li className="list_item_roles" > <span style={{color: 'white'}}> Data Engineer </span></li>  
+        <li className="list_item_roles" > <span style={{color: 'white'}}> Data Analyst </span></li> 
+        <li className="list_item_roles" > <span style={{color: 'white'}}> Software Engineer </span></li> 
+        <li className="list_item_roles" > <span style={{color: 'white'}}> Web Developer </span></li>  
+        <li className="list_item_roles" > <span style={{color: 'white'}}> MERN Stack Developer </span></li>  
 
       </ul>
     
       </Row>
       <hr/>
       </div>
-      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV. </strong></h1>
+      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV. </strong> 👀</h1>
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} height="1000" />

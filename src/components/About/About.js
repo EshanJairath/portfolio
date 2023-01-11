@@ -52,7 +52,7 @@ function About(props) {
         <ListGroup className='mt-3 about_list_group'  as="ol">
         <ListGroup.Item
           as="li"
-          className="justify-content-between align-items-start"
+          className="justify-content-between align-items-start "
         >
           <div className="container">
           <Row>

@@ -20,8 +20,8 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body" style={{ textAlign: "justify" }}>
-            Ambitious, and talented engineer with exceptional computer science skills and a master's degree in Artificial Intelligence. Worked for small start-ups in Artificial Intelligence, Machine Learning, Data science, and software engineering departments. Gained experience in managing teams and building software applications from scratch by working on a variety of small and large-scale projects. 
+            <p className="home-about-body">
+            Ambitious, and talented engineer with exceptional computer science skills 🧑‍💻  and a master's degree 🎓  in Artificial Intelligence 🤖. Worked for small start-ups in Artificial Intelligence, Machine Learning, Data science, and software engineering departments. Gained experience 📈 in managing teams and building software applications from scratch 🛠️ by working on a variety of small and large-scale projects 🗃️. 
             
               <br />
               <br />
