@@ -42,7 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<BlogHome />} />
-          <Route path="/differential_privacy" element={<BlogPost1/>} />
+         
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
@@ -52,3 +52,5 @@ function App() {
 }
 
 export default App;
+
+// <Route path="/differential_privacy" element={<BlogPost1/>} />

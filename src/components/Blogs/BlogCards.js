@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import Particle from '../Particle'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 function BlogCards(props) {
+  function handleBlog() {
+    toast('Full Blog Will be Available Soon.')
+  }
   return (
 
      <Card className='blog_card mt-5' style={{ width: '100%'}}>
@@ -14,7 +18,8 @@ function BlogCards(props) {
        <Card.Text className='blog_card_desc' style={{ textAlign: "justify" }}>
        {props.description}
      </Card.Text>
-     <Button className='mt-2' href={props.link} variant="primary">View Full Blog</Button>
+     <ToastContainer />
+     <Button className='mt-2' onClick={handleBlog} variant="primary">View Full Blog</Button>
        </Col>
        <Col md ={4}>
        <Card.Img variant='top' className='mt-3 blogPost_img mx-auto d-block' src = {props.imgPath} alt = 'blog_img'></Card.Img>
