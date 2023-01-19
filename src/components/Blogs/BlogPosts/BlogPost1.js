@@ -85,12 +85,15 @@ New Data =>
     Let's just see the power of data with this example - <br/>
     Assume that two reports are generated from the location and salary information that ten participants share. A salary report that combines data from New York, San Francisco, and Seattle to show average pay
     We learn from a worker location report that one person, or 10% of the study participants, is based in Seattle.
-    We can quickly ascertain the precise salary of the participant who is based in Seattle from these two reports. Anyone reading both studies who knows a Seattle resident who took part now knows that person's salary.
+    We can quickly ascertain the precise salary of the participant who is based in Seattle from these two reports. Anyone reading both studies and who knows a Seattle resident who took part now knows that person's salary.
     
     <img className='mx-auto d-flex text-center Blog_img_within'  src="https://learn.microsoft.com/en-us/training/wwl-data-ai/explore-differential-privacy/media/09-reveal-analysis.png" alt=""/>
+    
+    <br/>
+    The source of the above example is available <a href="https://learn.microsoft.com/en-us/training/modules/explore-differential-privacy/1-introduction">here.</a>
     </p>
 
-    The source of the above example is available <a href="https://learn.microsoft.com/en-us/training/modules/explore-differential-privacy/1-introduction">here.</a>
+   
 
     <p className='blog_post_paragraph' style={{color:'cyan'}}>This is Where Differential Privacy Comes into Picture.</p>
     <p className='blog_post_paragraph'>
@@ -116,20 +119,21 @@ New Data =>
     </p>
     </Col>
     
-    <Col md={6} className='p-3 mt-5'>
+    <Col md={6} className='p-3'>
     <img src={diff_priv} className='mx-auto d-flex blog_title_img' alt=""/>
-    <div className='container code_col mx-auto'>
-      <h1 className='col_2_code_col'> Example of Differential Privacy</h1>
+    <div className='container mt-5'>
+      <h1 className=''> <span className='purple'>Example</span> of Differential Privacy</h1>
       <p className='blog_post_paragraph' style={{color:'cyan'}}>By adding noise to data using Laplace mechanism.</p>
-      <SyntaxHighlighter className='code_example mt-5' language='python' style={atomOneDark}>
+      <SyntaxHighlighter className='code_example' language='python' style={atomOneDark}>
       {codeString}
       </SyntaxHighlighter>
-      <h2 className='mt-5'>Output</h2>
-      <SyntaxHighlighter className='code_example mt-5' language='python' style={atomOneDark}>
+      <ToastContainer />
+      <Button onClick={handleCopy} variant='primary'> Copy to clipboard</Button>
+      <h2 className='mt-5'> <span className='purple'>Output</span>  of the above code</h2>
+      <SyntaxHighlighter className='code_example' language='python' style={atomOneDark}>
       {outputString}
       </SyntaxHighlighter>
-<ToastContainer />
-<Button onClick={handleCopy} variant='primary'> Copy to clipboard</Button>
+
 
     </div>
     </Col>
