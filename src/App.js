@@ -42,7 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blogs" element={<BlogHome />} />
-          <Route path="/blog_post_1" element={<BlogPost1/>} />
+          <Route path="/differential_privacy" element={<BlogPost1/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
