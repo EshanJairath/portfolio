@@ -471,6 +471,8 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  border-radius: 20px !important;
+
 }
 
 .project-card-view {
@@ -480,7 +482,12 @@ button:focus {
   opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 20px !important;
+
 }
+
+
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -510,12 +517,6 @@ button:focus {
 
 .blog-link:hover {
   cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
 
 .card-img-top {
@@ -825,9 +826,72 @@ button:focus {
   border-radius: 20px !important;
 }
 .about_list_item{
-  text-align: justify;
+  /* text-align: justify; */
 }
 
-@media only screen and (max-width: 600px) {
- 
+.blog_page{
+  min-height: 100vh !important;
+  position: relative !important;
+  padding-top: 120px !important;
+  padding-bottom: 30px !important;
+  color: white;
+  background-image: var(--section-background-color) !important;
+}
+.blog_card{
+  border-radius: 20px !important;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3) !important;
+  justify-content: center !important;
+  
+}
+.blog_card:hover{
+  transition: all 0.5s ease 0s !important;
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+}
+.blog_col{
+  border-radius: 20px !important;
+  padding: 25px !important; 
+  background: rgb(0, 0, 0) !important;
+}
+
+.blog_car_title{
+  font-size: 1.8em !important;
+}
+.blog_card_desc{
+  font-size: 1.1em !important;
+}
+.blogPost_img{
+max-width: 90% !important;
+padding: 10px !important;
+border-radius: 30px !important;
+}
+.BlogContainer{
+  min-height: 100vh !important;
+  position: relative !important;
+  padding-top: 120px !important;
+  padding-bottom: 30px !important;
+  color: white;
+  background-image: var(--section-background-color) !important;
+}
+
+.blog_post_paragraph{
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-align: justify !important;
+}
+.Blog_img_within{
+  width: 90%;
+  border-radius: 20px !important;
+  margin-top: 20px !important;
+}
+.code_col{
+  margin-top: 10px !important;
+}
+.blog_title_img{
+  margin-top: 20px !important;
+  max-width: 70% !important;
+  border-radius: 20px !important;
+  margin-bottom: 70px !important;
 }
