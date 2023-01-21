@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 
 
@@ -19,7 +20,10 @@ function BlogCards(props) {
        {props.description}
      </Card.Text>
      <ToastContainer />
-     <Button className='mt-2' onClick={handleBlog} variant="primary">View Full Blog</Button>
+     <Link to={props.link}>
+    <Button className='mt-2' variant="primary">View Full Blog</Button>
+      </Link>
+
        </Col>
        <Col md ={4}>
        <Card.Img variant='top' className='mt-3 blogPost_img mx-auto d-block' src = {props.imgPath} alt = 'blog_img'></Card.Img>

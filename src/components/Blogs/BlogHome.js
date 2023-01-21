@@ -10,7 +10,7 @@ function BlogHome() {
   
   return (
     <Container fluid className='blog_page'>
-    <Particle/>
+    
     <Container>
     <h1 style = {{color: 'white'}}> My <span className='purple'> Blogs 📋 </span> </h1>
 
@@ -22,12 +22,12 @@ function BlogHome() {
     title = 'Differential Privacy'
     date = '19 January 2023.'
     description = 'Differential privacy is a rapidly growing field in data science that aims to protect the privacy of individuals whose data is being collected and analyzed. It is a set of techniques and mathematical concepts that allow data scientists to balance the need for privacy with the need for data-driven insights. In this article, we will explore the concept of differential privacy and its importance in data science.'
-    link = '/differential_privacy'
+    link = '/blogs/differential_privacy'
     />
 
    
     </Container>
-
+    <Particle/>
     </Container>
   )
 }

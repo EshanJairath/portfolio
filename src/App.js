@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import BlogHome from "./components/Blogs/BlogHome"
-import BlogPost1 from "./components/Blogs/BlogPosts/BlogPost1"
+import BlogPost from "./components/Blogs/BlogPosts/BlogPost"
 import {
   BrowserRouter as Router,
   Route,
@@ -37,12 +37,13 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/blogs" element={<BlogHome />} />
-         
+        <Route path="/" element={<Home />} />
+        <Route path="/project" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/blogs" element={<BlogHome />} />
+        <Route path="/blogs/differential_privacy" element={<BlogPost/>} />
+           
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
@@ -53,4 +54,4 @@ function App() {
 
 export default App;
 
-// <Route path="/differential_privacy" element={<BlogPost1/>} />
+// <

@@ -10,7 +10,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-function BlogPost_1() {
+function BlogPost() {
   var codeString = `
 import numpy as np
 
@@ -148,4 +148,4 @@ New Data =>
   )
 }
 
-export default BlogPost_1
+export default BlogPost
