@@ -85,7 +85,7 @@ New Data =>
     Let's just see the power of data with this example - <br/>
     Assume that two reports are generated from the location and salary information that ten participants share. A salary report that combines data from New York, San Francisco, and Seattle to show average pay
     We learn from a worker location report that one person, or 10% of the study participants, is based in Seattle.
-    We can quickly ascertain the precise salary of the participant who is based in Seattle from these two reports. Anyone reading both studies and who knows a Seattle resident who took part now knows that person's salary.
+    We can quickly ascertain the precise salary of the participant who is based in Seattle from these two reports. Anyone reading both studies and who knows a Seattle resident in the report, now knows that person's salary.
     
     <img className='mx-auto d-flex text-center Blog_img_within'  src="https://learn.microsoft.com/en-us/training/wwl-data-ai/explore-differential-privacy/media/09-reveal-analysis.png" alt=""/>
     

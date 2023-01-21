@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -15,7 +13,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
-import { FaBlog } from "react-icons/fa";
+import { FaBlog, FaGithub } from "react-icons/fa";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -101,6 +100,16 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com/EshanJairath"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <FaGithub style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
+              </Button>
             </Nav.Item>
 
 
