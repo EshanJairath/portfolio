@@ -631,20 +631,23 @@ button:focus {
   justify-content: center;
 }
 
-.resume-left {
+/* .resume-left {
   padding-right: 80px !important;
 }
 
 .resume-right {
   padding-left: 80px !important;
-}
+} */
 
 .score_badge{
  margin-top: 30%;
 }
 
 @media (max-width: 767px) {
-  .resume-left {
+  /* .resume{
+    max-width: 80% !important;
+  } */
+  /* .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
@@ -652,7 +655,7 @@ button:focus {
   .resume-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
-  }
+  } */
 
   .Cert_card_btns{
     margin: 10px !important;
