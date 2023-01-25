@@ -7,7 +7,8 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import BlogHome from "./components/Blogs/BlogHome"
-import BlogPost from "./components/Blogs/BlogPosts/BlogPost"
+import DiffPriv from "./components/Blogs/BlogPosts/Diff_priv"
+import DataDrift from "./components/Blogs/BlogPosts/Data_drift"
 import {
   BrowserRouter as Router,
   Route,
@@ -42,8 +43,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/blogs" element={<BlogHome />} />
-        <Route path="/blogs/differential_privacy" element={<BlogPost/>} />
-           
+        <Route path="/blogs/differential_privacy" element={<DiffPriv/>}/>
+        <Route path="/blogs/data_drift" element={<DataDrift/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

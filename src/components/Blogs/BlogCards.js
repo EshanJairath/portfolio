@@ -10,7 +10,7 @@ function BlogCards(props) {
   }
   return (
 
-     <Card className='blog_card mt-5' style={{ width: '100%'}}>
+     <Card className='blog_card mt-4' style={{ width: '100%'}}>
      <Card.Body>
      <Row> 
      <Col md = {8} >
