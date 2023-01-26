@@ -20,7 +20,7 @@ function BlogHome() {
     <BlogCards
     imgPath = {data_drift}
     title = 'Data Drift '
-    date = '25 January 2023.'
+    date = '26 January 2023.'
     description = 'Data drift is a phenomenon that occurs when the distribution of the data that a machine learning model is trained on differs significantly from the distribution of the data it is subsequently applied to.This can lead to a decline in model performance, and is a common problem in data science.'
     link = '/blogs/data_drift'
     />

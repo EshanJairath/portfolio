@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 import Particle from '../../Particle'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
@@ -65,16 +64,13 @@ for i in range(10):
   }
   return (
     <div className='BlogContainer'>
-    
     <Container>
     <div className='container'>
-    
-    <h1> <span className='purple'>D</span>ata  <span className='purple'>D</span>rift</h1>
-    <p style={{color:'cyan'}}>Data Science  <span style={{color:'white'}} > | 25 January 2023 .</span></p>
-  
-
     <Row>
-    <Col md = {6} className='blog_col mt-5'>
+    <Col md = {6} className='blog_col'>
+    <h1> <span className='purple'>D</span>ata  <span className='purple'>D</span>rift</h1>
+    <p style={{color:'cyan'}}>Data Science  <span style={{color:'white'}} > | 26 January 2023 .</span></p>
+
     <p className='blog_post_paragraph' style={{color:'cyan'}}> What is Data Drfit ? </p>
 
     <p className='blog_post_paragraph'>
@@ -135,14 +131,10 @@ for i in range(10):
       <Button onClick={handleCopy_2} variant='primary'> Copy to clipboard</Button>
       <ToastContainer />
       <p className='blog_post_paragraph'>In this example, we continuously generate new test data and update the training data with the test data. The model is then retrained on the new training data, allowing it to adapt to changes in the data distribution</p>
-
     </div>
     </Col>
-    
     </Row>
-
     </div>
-    
     </Container>
     <Particle/>
     </div>
