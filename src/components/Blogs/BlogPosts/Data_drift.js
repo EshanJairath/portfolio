@@ -86,7 +86,7 @@ for i in range(10):
     <p className='blog_post_paragraph' style={{color:'cyan'}}> How to address Data Drfit ? </p>
 
     <p className='blog_post_paragraph'>
-    There are several approaches to addressing data drift. One is to continually retrain the model on new data, known as online learning. This can be done periodically or in real-time, depending on the application and the rate of change of the data. Another approach is to use ensemble methods, where multiple models are trained and combined to improve robustness to data drift.</p>
+    There are several approaches to addressing data drift. One is to continually retrain the model on new data, known as online learning. This can be done periodically or in real-time, depending on the application and the rate of change of the data..</p>
 
     <p className='blog_post_paragraph'> Another approach is to use domain adaptation techniques, which aim to align the distribution of the training and test data by reducing the discrepancy between them. This can be done by using techniques such as weighting the loss function, adapting the features, or using domain-specific preprocessing steps.
      </p>
