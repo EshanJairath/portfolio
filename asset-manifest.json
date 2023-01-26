@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.825f6db0.css",
-    "main.js": "/portfolio/static/js/main.9bfa797d.js",
+    "main.css": "/portfolio/static/css/main.8ee2bbcc.css",
+    "main.js": "/portfolio/static/js/main.d86a7ec7.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MovieBlitz.png": "/portfolio/static/media/MovieBlitz.aa08a96db02124e4722f.png",
@@ -17,6 +17,7 @@
     "static/media/human-heart.png": "/portfolio/static/media/human-heart.3e000fe41011b39edc6e.png",
     "static/media/Machine--Learning.jpg": "/portfolio/static/media/Machine--Learning.639e113e6eddbc332afe.jpg",
     "static/media/fraud-detection.png": "/portfolio/static/media/fraud-detection.b5ef27a706dca24ad425.png",
+    "static/media/data_drift.png": "/portfolio/static/media/data_drift.9368e7dabcae06016a6a.png",
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/dp-900.png": "/portfolio/static/media/dp-900.2bf170778bbaf7da5655.png",
     "static/media/AI-900.png": "/portfolio/static/media/AI-900.5c3563ba51e135f5b1de.png",
@@ -24,13 +25,13 @@
     "static/media/web.png": "/portfolio/static/media/web.2ebc8bf4c2ffd33a0e13.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
-    "main.825f6db0.css.map": "/portfolio/static/css/main.825f6db0.css.map",
-    "main.9bfa797d.js.map": "/portfolio/static/js/main.9bfa797d.js.map",
+    "main.8ee2bbcc.css.map": "/portfolio/static/css/main.8ee2bbcc.css.map",
+    "main.d86a7ec7.js.map": "/portfolio/static/js/main.d86a7ec7.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.825f6db0.css",
-    "static/js/main.9bfa797d.js"
+    "static/css/main.8ee2bbcc.css",
+    "static/js/main.d86a7ec7.js"
   ]
 }
