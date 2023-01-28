@@ -23,7 +23,26 @@ function ResumeNew() {
     <div>
     <Particle />
       <Container fluid className="resume-section">
-      <div className="container">
+      
+      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV. </strong> 👀</h1>
+        <Row className="resume ">
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.51} height="1000" />
+          </Document>
+        </Row>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
+        </Row>
+
+      <div className="container mt-5">
       <Row>
       <hr/>
       <h2>Roles in which I am <span className="purple"> Currently Seeking Opportunities 🕵️ </span>-</h2> 
@@ -43,25 +62,6 @@ function ResumeNew() {
       </Row>
       <hr/>
       </div>
-      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV. </strong> 👀</h1>
-        <Row className="resume ">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.51} height="1000" />
-          </Document>
-        </Row>
-
-     
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
       </Container>
     </div>
   );

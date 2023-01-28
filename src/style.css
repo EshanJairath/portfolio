@@ -497,7 +497,6 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: auto !important;
   border-radius: 20px !important;
 
 }
@@ -508,10 +507,22 @@ button:focus {
   background-color: transparent !important;
   opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  height: 110% !important;
   border-radius: 20px !important;
 
 }
+ /* .proj_Card_Body {
+  display: grid;
+  grid-template-areas: 
+  "text button-group";
+} */
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
 
 
 

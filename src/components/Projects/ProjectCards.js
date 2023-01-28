@@ -8,31 +8,34 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" className="proj_card_img" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+      <Card.Body className="proj_Card_Body">
+        <Card.Title style ={{color:"cyan"}}>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+
+        <div className="bottom-right">
+        {props.ghLink ? (
+            <Button className="proj_btn-group " variant="primary" href={props.ghLink} target="_blank">
+                <BsGithub /> &nbsp;
+                {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+        ) : null}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+            <Button
+                variant="primary"
+                href={props.demoLink}
+                target="_blank"
+                style={{ marginLeft: "10px" }}
+            >
+                <CgWebsite /> &nbsp;
+                {"Demo"}
+            </Button>
         )}
+    </div>
       </Card.Body>
     </Card>
   );

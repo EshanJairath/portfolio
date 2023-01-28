@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import heart from "../../Assets/Projects/human-heart.png";
+import flood from "../../Assets/Projects/FLood.jpg"
 import imgcla from "../../Assets/Projects/Img_classifier.jpg";
 import fd from "../../Assets/Projects/fraud-detection.png";
 import NLP from "../../Assets/Projects/NLP.jpg"
@@ -21,13 +22,24 @@ function Projects() {
           Here are a few projects I've worked on recently .
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={flood}
+          isBlog={false}
+          title="Flood Extent Prediction With Geospatial data"
+          description="
+          This project aimed to predict flood extents using geospatial data extracted from Google Earth Engine. A machine learning regression model was built and trained on this data, which was then used to predict floodwater percentages in a test region. The ultimate goal of this project was to assist disaster management efforts by providing accurate predictions of floodwater percentages, which can be used to inform evacuation decisions in high-risk areas."
+
+        />
+      </Col>  
+        
+        <Col md={4} className="project-card">
             <ProjectCard
               imgPath={heart}
               isBlog={false}
               title="Heart Failure Prediction Web App"
               description="
-              Machine Learning model that can predict if patient has a chance of heart failure or not with the help of the infomation entered by the user. Our Model works on Random Forest Classification which is around 94 % accuracte in my case.
+              This project is a machine learning model that utilizes Random Forest Classification to predict the likelihood of heart failure in patients. The model is trained on patient data, including demographic information and medical history, and is able to provide accurate predictions with an accuracy rate of 94%. The model is designed as a web application, allowing users to input their own information and receive a prediction of their risk of heart failure.
               "
               ghLink="https://github.com/EshanJairath/ML_Heart-Failure"
             
@@ -39,7 +51,7 @@ function Projects() {
               imgPath={imgcla}
               isBlog={false}
               title="Image Classifer"
-              description="A CNN (Convolution Neural Network) model trained on the CIFAR-10 dataset which gives 86% on the test set and manages to predict random images from every category in the dataset correctly."
+              description="This project presents a convolutional neural network (CNN) model trained on the CIFAR-10 dataset, a widely-used benchmark for image classification. The model achieved an accuracy of 86% on the test set, demonstrating its ability to accurately predict images from each of the ten categories in the dataset. This project highlights the effectiveness of CNNs in image recognition tasks and the potential for further improvement with additional training and fine-tuning."
               ghLink="https://github.com/EshanJairath/CNN-image-Classifier-on-CIFAR-10"
               
             />
@@ -61,7 +73,7 @@ function Projects() {
               imgPath={NLP}
               isBlog={false}
               title="Restaurant Review Prediction"
-              description="A fully functional review prediction system that uses NLP to detect positive and negative reviews of a restaurant. Technologies used - Deep Learning, Natural Language Processing, SVM, Python"
+              description="This project presents a review prediction system designed to automatically classify customer reviews of restaurants as positive or negative. The system utilizes advanced Natural Language Processing (NLP) techniques and machine learning algorithms, including Support Vector Machines (SVMs) and Deep Learning, to analyze text data and make predictions."
               ghLink="https://github.com/EshanJairath/Restaurant-review-prediction-"
               
             />
@@ -72,7 +84,7 @@ function Projects() {
               imgPath={instaClone}
               isBlog={false}
               title="Instagram Clone - Pics-Watch"
-              description="An Instagram clone web application made with react.js and firebase for user authentication, data storage and hosting."
+              description="This project is an Instagram clone web application that has been developed using the React.js framework and Firebase for user authentication, data storage, and hosting. The application provides users with a platform to share pictures, videos, and text, similar to the Instagram app. The application's user interface is designed to be intuitive and easy to use, allowing users to easily navigate through the app's features."
               ghLink="https://github.com/EshanJairath/PicsWatch-Insta-clone"
               demoLink="https://instagram-clone-picswatch.web.app/" 
             />
@@ -83,13 +95,13 @@ function Projects() {
               imgPath={MB}
               isBlog={false}
               title="MovieBlitzz"
-              description="React Web Application that uses the movie database (TMDB) to showcase lastest Movies and TV shows "
+              description="This project is a React web application that utilizes the movie database (TMDB) API to showcase the latest movies and TV shows. The application allows users to browse movies and TV shows by title, genre, and release date. Users can also view detailed information about each movie or TV show, including the cast, plot, and trailers. The user interface is designed to be intuitive and user-friendly, making it easy for users to navigate and find the content they are looking for "
               ghLink="https://github.com/EshanJairath/MovieBlitz"
               demoLink="https://movieblitz-7feda.web.app/"       
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading mt-5">
           To view more of my <strong className="purple"> Projects</strong>, 
         </h1>
         <p style={{ color: "cyan", fontSize:'1.4em' }}>
