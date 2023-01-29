@@ -12,6 +12,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p className="about_text" style={{ textAlign: "justify" }}>
+          (test).
             Hi Everyone, I am <span className="purple">Eshan Jairath </span>
             from New Delhi, India currenlty living in Newcastle Upon Tyne, United Kingdom. 
             As a skilled individual, I have expertise in a range of fields related to computer science🧑‍💻 and artificial intelligence 🤖. I have a deep understanding of data structures and algorithms, with a strong background in programming, specifically in Python 🐍 and JavaScript. 

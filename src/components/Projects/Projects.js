@@ -9,6 +9,7 @@ import fd from "../../Assets/Projects/fraud-detection.png";
 import NLP from "../../Assets/Projects/NLP.jpg"
 import instaClone from "../../Assets/Projects/instagramclone.png";
 import MB from "../../Assets/Projects/MovieBlitz.png";
+import EDA_1 from "./ProjectPages/EDA_1";
 
 function Projects() {
   return (
@@ -21,6 +22,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently .
         </p>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
         <ProjectCard
