@@ -9,12 +9,7 @@ import Resume from "./components/Resume/ResumeNew";
 import BlogHome from "./components/Blogs/BlogHome"
 import DiffPriv from "./components/Blogs/BlogPosts/Diff_priv"
 import DataDrift from "./components/Blogs/BlogPosts/Data_drift"
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";

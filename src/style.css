@@ -507,10 +507,16 @@ button:focus {
   background-color: transparent !important;
   opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
-  height: 110% !important;
+  height: 107% !important;
   border-radius: 20px !important;
 
 }
+
+.proj_card_img{
+  height: 30vh !important;
+}
+
+
  /* .proj_Card_Body {
   display: grid;
   grid-template-areas: 
@@ -625,6 +631,10 @@ button:focus {
   .project-heading{
     font-size: 2em !important;
   }
+  .proj_card_img{
+    height: 25vh !important;
+  }
+  
 }
 
 .tech-icons:hover {

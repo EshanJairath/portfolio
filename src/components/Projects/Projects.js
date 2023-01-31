@@ -9,7 +9,8 @@ import fd from "../../Assets/Projects/fraud-detection.png";
 import NLP from "../../Assets/Projects/NLP.jpg"
 import instaClone from "../../Assets/Projects/instagramclone.png";
 import MB from "../../Assets/Projects/MovieBlitz.png";
-import EDA_1 from "./ProjectPages/EDA_1";
+import EDA_1 from "./ProjectPages/NetflixEda";
+import Netflix from "../../Assets/Projects/netflix.png";
 
 function Projects() {
   return (
@@ -17,7 +18,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works 💻 </strong>
+          My Recent <strong className="purple">Projects 💻 </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently .
@@ -48,6 +49,18 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Netflix}
+              isBlog={false}
+              title="Netflix Titles EDA "
+              description="This project aims to perform an exploratory data analysis (EDA) of the Netflix streaming platform to gain insights into the viewing habits and preferences of users. The data used for this project will be obtained from publicly available sources, and it will include information on the most popular shows, genres, and release dates. The outcome of this project will be a comprehensive report on the EDA performed on the Netflix streaming platform, including the data cleaning and preprocessing steps, descriptive and inferential statistics, and data visualization results. "
+              ghLink="https://github.com/EshanJairath/Netflix_Eda"
+              demoLink="https://eshanjairath.github.io/Netflix_Eda/"       
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={imgcla}
@@ -58,6 +71,8 @@ function Projects() {
               
             />
           </Col>
+
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -102,7 +117,9 @@ function Projects() {
               demoLink="https://movieblitz-7feda.web.app/"       
             />
           </Col>
+          
         </Row>
+     
         <h1 className="project-heading mt-5">
           To view more of my <strong className="purple"> Projects</strong>, 
         </h1>
