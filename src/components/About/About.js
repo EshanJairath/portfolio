@@ -22,7 +22,8 @@ function About(props) {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-        <hr/> 
+        <hr/>
+        
         <Col
             md={7}
             style={{

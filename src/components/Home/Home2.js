@@ -25,52 +25,82 @@ function Home2() {
             
               <br />
               <br />
-              <h style ={{fontSize :'1.6em'}} > My top <span className="purple">Skills</span></h>
+              <h style ={{fontSize :'1.6em' }} > My top <span className="purple">Skills</span></h>
               <br/>
               <ul className="mt-3">
-                <li>
-                Programming - <span className="purple">  Python, JavaScript.</span> 
+                <li className="mt-2">
+                Proficient in programming languages such as <span className="purple">  Python</span> and
+                 <span className="purple">JavaScript.</span> 
                 </li>
                 
-                <li>
-                Data Structures and Algorithms
-                </li>
-                <li>Artificial Intelligence and Digital Technologies</li>
-                <li>
-                Machine learning & deep learning – <span className="purple"> Scikit-learn, 
-                TensorFlow, Pandas, computer vision, Neural 
-                Networks, NLP, Reinforcement learning, ELT 
-                pipelines.</span>
-                </li>
-                <li>
-                Database - <span className="purple"> MongoDB, SQL, Firebase.</span> 
+                <li className="mt-2">
+                Strong understanding of <span className="purple"> data structures</span>  and <span className="purple"> algorithms.</span> 
                 </li>
 
-                <li>
-                Cloud - <span className="purple"> Microsoft Azure</span> <span className="supporting_text">(Certified).</span> 
+                <li className="mt-2">Experienced in utilizing <span className="purple"> machine learning </span> and <span className="purple"> deep learning</span>  frameworks such as Scikit-learn, TensorFlow, Pandas, and computer vision, as well as expertise in neural networks, NLP, reinforcement learning, and ELT pipelines.</li>
+
+                <li className="mt-2">
+                  Extensive knowledge of Artificial Intelligence and digital technologies
                 </li>
 
-                <li>
-                Version Control – <span className="purple"> Git and GitHub</span> 
+                <li className="mt-2">
+               Skilled in database management using MongoDB, SQL, and Firebase.
                 </li>
 
-                <li>
-                Data Visualization – <span className="purple"> Microsoft Power BI.</span> 
+                <li className="mt-2">
+                Experienced in data engineering.
                 </li>
 
-                <li>
-                System Analysis and Design
+                <li className="mt-2">
+                Knowledge of geospatial data analysis and extraction.
                 </li>
 
-                <li>
-                Web - <span className="purple">React.js (Redux and context API), Node, Express.js, REST API.</span> 
+                <li className="mt-2">
+                Skilled in predictive modeling.
                 </li>
 
-                <li>
-                Problem Solving.
+                <li className="mt-2">
+                Adept in Exploratory Data Analysis (EDA).
                 </li>
 
-                
+                <li className="mt-2">
+                Proficient in data visualization using Microsoft Power BI.
+                </li>
+
+                <li className="mt-2">
+                Microsoft Azure Certified with cloud computing expertise.
+                </li>
+
+                <li className="mt-2">
+                Familiar with version control systems such as Git and GitHub.
+               </li>
+               
+               <li className="mt-2">
+               Knowledge of MLOPS practices.
+               </li>
+
+               <li className="mt-2">
+               Experience with Data Bricks.
+               </li>
+
+               <li className="mt-2">
+               Adept in technical documentation using LaTeX.
+               </li>
+              
+               <li className="mt-2">Experienced in system analysis and design.
+              </li>
+
+               <li className="mt-2">
+               Skilled in web development using React.js (Redux and context API), Node, Express.js, and REST API.
+               </li>
+
+               <li className="mt-2">
+              Strong problem-solving skills.
+               </li>
+
+               <li className="mt-2">
+              Capable of effectively communicating complex technical concepts and their applications to non-technical audiences.
+               </li>
 
               </ul>
               <br />
@@ -81,6 +111,12 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid home_my_img" alt="avatar" />
             </Tilt>
+
+            <div className="mt-5 tech-stack-home">
+              <h2 className="purple"> My Tech Stack -</h2>
+
+            </div>
+
           </Col>
         </Row>
         <Row>
