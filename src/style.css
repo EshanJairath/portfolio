@@ -282,8 +282,10 @@ button:focus {
 }
 
 .tech-stack-home{
-  border: 1px solid cyan;
-  padding: 15px;
+  border: 3px solid rgba(208, 0, 255, 0.557);
+  padding: 10px;
+  color: white;
+  text-align: center;
   border-radius: 20px !important;
 }
 
@@ -616,12 +618,13 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
+  font-size: 2.4em !important;
+  margin: 10px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
+  color: white;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;

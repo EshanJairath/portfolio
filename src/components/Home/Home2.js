@@ -10,6 +10,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Techstack from "../About/Techstack";
+import Toolstack from "../About/Toolstack";
 
 function Home2() {
   return (
@@ -37,69 +39,77 @@ function Home2() {
                 Strong understanding of <span className="purple"> data structures</span>  and <span className="purple"> algorithms.</span> 
                 </li>
 
-                <li className="mt-2">Experienced in utilizing <span className="purple"> machine learning </span> and <span className="purple"> deep learning</span>  frameworks such as Scikit-learn, TensorFlow, Pandas, and computer vision, as well as expertise in neural networks, NLP, reinforcement learning, and ELT pipelines.</li>
+                <li className="mt-2">Experienced in utilizing <span className="purple"> machine learning </span> and <span className="purple"> deep learning</span>  frameworks such as <span style={{color:'cyan'}}>Scikit-learn, TensorFlow, Pandas, </span> and <span style={{color:'cyan'}}> computer vision </span>, as well as expertise in <span style={{color:'cyan'}}> neural networks, NLP, reinforcement learning,</span> and <span style={{color:'cyan'}}>ELT pipelines.</span>  </li>
 
                 <li className="mt-2">
-                  Extensive knowledge of Artificial Intelligence and digital technologies
+                  Extensive knowledge of 
+                  <span className="purple">Artificial Intelligence </span> 
+                  and <span className="purple">digital technologies </span>
+                  
                 </li>
 
                 <li className="mt-2">
-               Skilled in database management using MongoDB, SQL, and Firebase.
+               Skilled in database management using <span className="purple"> MongoDB, SQL,</span> and <span className="purple">Firebase</span> . 
                 </li>
 
                 <li className="mt-2">
-                Experienced in data engineering.
+                Experienced in <span className="purple">data engineering</span>.
                 </li>
 
                 <li className="mt-2">
-                Knowledge of geospatial data analysis and extraction.
+                Knowledge of <span className="purple">geospatial data</span> analysis and extraction.
+                </li> 
+                
+
+                <li className="mt-2">
+                Skilled in <span className="purple">predictive modeling</span> .
                 </li>
 
                 <li className="mt-2">
-                Skilled in predictive modeling.
+                Adept in <span className="purple">Exploratory Data Analysis </span>  (EDA).  </li>
+
+                <li className="mt-2">
+                Proficient in data visualization using <span className="purple">Microsoft Power BI</span> .
                 </li>
 
                 <li className="mt-2">
-                Adept in Exploratory Data Analysis (EDA).
+                <span style={{color:'cyan'}}> Microsoft Azure Certified</span>  with <span className="purple">cloud computing expertise</span>
                 </li>
 
                 <li className="mt-2">
-                Proficient in data visualization using Microsoft Power BI.
-                </li>
-
-                <li className="mt-2">
-                Microsoft Azure Certified with cloud computing expertise.
-                </li>
-
-                <li className="mt-2">
-                Familiar with version control systems such as Git and GitHub.
+                Familiar with version control systems such as <span className="purple">Git </span> and <span className="purple"> GitHub.</span>
+                
+                
                </li>
                
                <li className="mt-2">
-               Knowledge of MLOPS practices.
+               Knowledge of <span className="purple">MLOPS practices</span>.
                </li>
 
                <li className="mt-2">
-               Experience with Data Bricks.
+               Experience with <span className="purple">Data Bricks</span>.
                </li>
 
                <li className="mt-2">
-               Adept in technical documentation using LaTeX.
+               Adept in technical documentation using <span className="purple"> LaTeX</span>.
                </li>
               
-               <li className="mt-2">Experienced in system analysis and design.
+               <li className="mt-2">Experienced in<span className="purple">system analysis and design</span> .
               </li>
 
                <li className="mt-2">
-               Skilled in web development using React.js (Redux and context API), Node, Express.js, and REST API.
+               Skilled in web development using <span className="purple"> React.js </span> <span style={{color:'cyan'}}> (Redux and context API) </span>, <span className="purple">Node, Express.js,</span>  and <span className="purple">REST API</span>.
+               
                </li>
 
                <li className="mt-2">
-              Strong problem-solving skills.
+              Strong <span className="purple"> problem-solving skills</span>.
                </li>
 
                <li className="mt-2">
-              Capable of effectively communicating complex technical concepts and their applications to non-technical audiences.
+              Capable of effectively communicating <span className="purple"> complex technical concepts </span>  and their applications to <span className="purple"> non-technical audiences </span>.
+            
+             
                </li>
 
               </ul>
@@ -113,8 +123,9 @@ function Home2() {
             </Tilt>
 
             <div className="mt-5 tech-stack-home">
-              <h2 className="purple"> My Tech Stack -</h2>
-
+              <h2 className="mt-2"> My Tech <span className="purple"> Stack</span>  🛠️</h2>
+              <hr/>
+              <Techstack/>
             </div>
 
           </Col>
