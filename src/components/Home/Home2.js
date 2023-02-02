@@ -94,7 +94,7 @@ function Home2() {
                Adept in technical documentation using <span className="purple"> LaTeX</span>.
                </li>
               
-               <li className="mt-2">Experienced in<span className="purple">system analysis and design</span> .
+               <li className="mt-2">Experienced in <span className="purple">system analysis and design</span>.
               </li>
 
                <li className="mt-2">
