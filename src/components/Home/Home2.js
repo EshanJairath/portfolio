@@ -42,8 +42,7 @@ function Home2() {
                 <li className="mt-2">Experienced in utilizing <span className="purple"> machine learning </span> and <span className="purple"> deep learning</span>  frameworks such as <span style={{color:'cyan'}}>Scikit-learn, TensorFlow, Pandas, </span> and <span style={{color:'cyan'}}> computer vision </span>, as well as expertise in <span style={{color:'cyan'}}> neural networks, NLP, reinforcement learning,</span> and <span style={{color:'cyan'}}>ELT pipelines.</span>  </li>
 
                 <li className="mt-2">
-                  Extensive knowledge of 
-                  <span className="purple">Artificial Intelligence </span> 
+                  Extensive knowledge of <span className="purple"> Artificial Intelligence </span> 
                   and <span className="purple">digital technologies </span>
                   
                 </li>
@@ -122,9 +121,7 @@ function Home2() {
               <img src={myImg} className="img-fluid home_my_img" alt="avatar" />
             </Tilt>
 
-            <div className="mt-5 tech-stack-home">
-              <h2 className="mt-2"> My Tech <span className="purple"> Stack</span>  🛠️</h2>
-              <hr/>
+            <div className="mt-4 tech-stack-home">
               <Techstack/>
             </div>
 
