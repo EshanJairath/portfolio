@@ -282,11 +282,10 @@ button:focus {
 }
 
 .tech-stack-home{
-  border: 3px solid rgba(208, 0, 255, 0.557);
   padding: 10px;
   color: white;
   text-align: center;
-  border-radius: 20px !important;
+
 }
 
 .main-name {
