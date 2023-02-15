@@ -17,9 +17,9 @@ function Certifications() {
     <h1> MY <strong className="purple"> CERTIFICATIONS</strong></h1>
     
     <div>
-    <Row className="mt-4">
+    <Row className="cert_rows">
 
-    <Col md ='4' className="cerfication_logo">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card'>
     <a href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url"> <Card.Img variant="top" className='certification_img'  src={dp_100}/></a>
 
@@ -36,7 +36,7 @@ function Certifications() {
     </Card>
     </Col>
 
-    <Col md ='4' className="cerfication_logo">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card'>
     <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={ai_900}/></a>
 
@@ -54,7 +54,7 @@ function Certifications() {
     </Col>
 
 
-    <Col md ='4' className="cerfication_logo">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.credly.com/badges/20dfa432-f24c-4021-9c49-b006ad342861?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={dp_900}/></a>
 
@@ -74,8 +74,8 @@ function Certifications() {
     
     </Row>
 
-    <Row className="mt-4">
-    <Col md ='4' className="cerfication_logo">
+    <Row className="cert_rows">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/"> <Card.Img variant="top" className='certification_img'  src={ML}/></a>
 
@@ -106,7 +106,7 @@ function Certifications() {
     </Col>
 
 
-    <Col md ='4' className="cerfication_logo">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-64e4a830-3991-42b9-ac5f-2adea6ba4aed/"> <Card.Img variant="top" className='certification_img'  src={DL}/></a>
 
@@ -130,7 +130,7 @@ function Certifications() {
     </Card>
     </Col>
 
-    <Col md ='4' className="cerfication_logo">
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-9d67e1f1-f4b1-4054-91df-7bcf9c6e3618/"> <Card.Img variant="top" className='certification_img'  src={python}/></a>
 
@@ -167,8 +167,8 @@ function Certifications() {
     </Col>
     </Row>
 
-    <Row className='mt-4'>
-    <Col md ='4' className="cerfication_logo">
+    <Row className = 'cert_rows'>
+    <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/"> <Card.Img variant="top" className='certification_img'  src={web}/></a>
 

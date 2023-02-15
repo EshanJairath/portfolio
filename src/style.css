@@ -740,6 +740,12 @@ button:focus {
   .score_badge{
     margin-top: 5px;
     margin-bottom: 10px;
+    }
+ .cerfication_col{
+  margin-top: 20px !important;
+ }
+ .cert_rows{
+  margin-top: 0px !important;
 }
  
 }
@@ -880,6 +886,9 @@ button:focus {
   border: 1px solid white !important;
   height: 100% !important;
   border-radius: 20px !important;
+}
+.cert_rows{
+  margin-top: 25px !important;
 }
 .Cert_card_btns{
   margin: 10px;
