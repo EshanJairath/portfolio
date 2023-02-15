@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ai_900 from "../../Assets/Certifications/AI-900.png"
 import dp_900 from "../../Assets/Certifications/dp-900.png"
+import dp_100 from "../../Assets/Certifications/dp-100.png"
 import ML from "../../Assets/Certifications/Machine--Learning.jpg"
 import DL from "../../Assets/Certifications/DL.jpg"
 import python from "../../Assets/Certifications/python.png"
@@ -16,7 +17,25 @@ function Certifications() {
     <h1> MY <strong className="purple"> CERTIFICATIONS</strong></h1>
     
     <div>
-    <Row className="mt-5">
+    <Row className="mt-4">
+
+    <Col md ='4' className="cerfication_logo">
+    <Card className='certification_card'>
+    <a href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url"> <Card.Img variant="top" className='certification_img'  src={dp_100}/></a>
+
+      <Card.Body>
+        <Card.Title className='purple'>Microsoft Certified: Azure Data Scientist Associate</Card.Title>
+        <p className='supporting_text'>Issued by Microsoft.</p>
+        <Card.Text>
+        Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
+        </Card.Text>
+        <Button className="Cert_card_btns" href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url">View Badge</Button>
+
+        <Button className="Cert_card_btns" href="https://learn.microsoft.com/en-us/certifications/exams/dp-100">About Certification</Button>
+      </Card.Body>
+    </Card>
+    </Col>
+
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card'>
     <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={ai_900}/></a>
@@ -37,7 +56,7 @@ function Certifications() {
 
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card '>
-    <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={dp_900}/></a>
+    <a href="https://www.credly.com/badges/20dfa432-f24c-4021-9c49-b006ad342861?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={dp_900}/></a>
 
       <Card.Body>
         <Card.Title className='purple'>Microsoft Certified: Azure Data Fundamentals</Card.Title>
@@ -52,9 +71,13 @@ function Certifications() {
     </Card>
     </Col>
 
+    
+    </Row>
+
+    <Row className="mt-4">
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card '>
-    <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={ML}/></a>
+    <a href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/"> <Card.Img variant="top" className='certification_img'  src={ML}/></a>
 
       <Card.Body>
         <Card.Title className='purple'>Machine Learning A-Z : Python & R in Data Science </Card.Title>
@@ -68,6 +91,9 @@ function Certifications() {
           Build Machine Learning models and know how to combine them to solve any problem.
           </li>
           <li>
+          Use Machine Learning for personal purpose
+          </li>
+          <li>
           Reinforcement Learning, NLP and Deep Learning
           </li>
         </ul>
@@ -78,12 +104,11 @@ function Certifications() {
       </Card.Body>
     </Card>
     </Col>
-    </Row>
 
-    <Row className="mt-5">
+
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card '>
-    <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={DL}/></a>
+    <a href="https://www.udemy.com/certificate/UC-64e4a830-3991-42b9-ac5f-2adea6ba4aed/"> <Card.Img variant="top" className='certification_img'  src={DL}/></a>
 
       <Card.Body>
         <Card.Title className='purple'>Deep Learning A-Z : Hands-on Artificial Neural Networks  </Card.Title>
@@ -107,7 +132,7 @@ function Certifications() {
 
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card '>
-    <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={python}/></a>
+    <a href="https://www.udemy.com/certificate/UC-9d67e1f1-f4b1-4054-91df-7bcf9c6e3618/"> <Card.Img variant="top" className='certification_img'  src={python}/></a>
 
       <Card.Body>
         <Card.Title className='purple pt-4'>Python - The complete python bootcamp</Card.Title>
@@ -140,10 +165,12 @@ function Certifications() {
       </Card.Body>
     </Card>
     </Col>
+    </Row>
 
+    <Row className='mt-4'>
     <Col md ='4' className="cerfication_logo">
     <Card className='certification_card '>
-    <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={web}/></a>
+    <a href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/"> <Card.Img variant="top" className='certification_img'  src={web}/></a>
 
       <Card.Body>
         <Card.Title className='purple pt-4'>Web Development - The Complete web development bootcamp. </Card.Title>
@@ -174,9 +201,9 @@ function Certifications() {
       </Card.Body>
     </Card>
     </Col>
+    
     </Row>
 
-    
     </div>
     
 

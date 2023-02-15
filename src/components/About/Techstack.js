@@ -9,7 +9,8 @@ import {
   DiPython,
   DiGit,
   
-} from "react-icons/di";
+}from "react-icons/di";
+import Tooltip from 'react-tooltip';
 import {
   SiPytorch,
   SiFirebase,
@@ -36,9 +37,26 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-    <Col xs={4} md={2} className="tech-icons" title="Python">
-    <DiPython />
-     </Col>
+    <div style={{display: "inline-block", width: "auto"}}>
+    <Col xs={4} md={2} className="tech-icons">
+    <DiPython data-tip data-for="python"/>
+  </Col>
+  <Tooltip id="python" place="bottom" type="light" effect="solid">
+    Python 
+  </Tooltip>
+</div>
+
+<div style={{display: "inline-block", width: "auto"}}>
+<Col xs={4} md={2} className="tech-icons">
+<DiJavascript1 data-tip data-for="javascript"/>
+</Col>
+<Tooltip id="javascript" place="bottom" type="light" effect="solid">
+  Javascript 
+</Tooltip>
+</div>
+
+
+
       <Col xs={4} md={2} className="tech-icons" title="JavaScript">
         <DiJavascript1 />
       </Col>
