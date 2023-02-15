@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import myImg from "../../Assets/myImg.jpg";
 import ai_900 from "../../Assets/Certifications/AI-900.png"
 import Tilt from "react-parallax-tilt";
@@ -12,6 +12,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import Techstack from "../About/Techstack";
 import Toolstack from "../About/Toolstack";
+import ReactTooltip from "react-tooltip";
 
 function Home2() {
   return (
@@ -117,9 +118,17 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid home_my_img" alt="avatar" />
-            </Tilt>
+          <div style={{display: "inline-block", width: "auto"}}>
+          <Tilt>
+            <img src={myImg} id="me" className="img-fluid home_my_img" alt="avatar" data-tip data-for="me" />
+          
+          </Tilt>
+          <ReactTooltip id="me" place="bottom" type="light"   effect="solid">
+          👆 This is Me. 😎
+          </ReactTooltip>
+          </div>
+            
+         
 
             <div className="mt-4 tech-stack-home">
               <Techstack/>
