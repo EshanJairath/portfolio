@@ -741,13 +741,13 @@ button:focus {
     margin-top: 5px;
     margin-bottom: 10px;
     }
- .cerfication_col{
+    
+  .cerfication_col{
   margin-top: 20px !important;
  }
- .cert_rows{
-  margin-top: 0px !important;
-}
- 
+
+
+
 }
 .resume .resume-title {
   font-size: 2em;
@@ -881,15 +881,16 @@ button:focus {
   
 } 
 .certification_card{
-  background-color: transparent !important;
+  background-color: rgba(165, 165, 165, 0.20) !important;
   padding: 10px;
-  border: 1px solid white !important;
+  border: 1px solid rgba(255, 255, 255, 0.208) !important;
   height: 100% !important;
   border-radius: 20px !important;
 }
-.cert_rows{
+.cerfication_col{
   margin-top: 25px !important;
-}
+ }
+
 .Cert_card_btns{
   margin: 10px;
 }

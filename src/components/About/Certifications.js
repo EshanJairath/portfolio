@@ -72,9 +72,7 @@ function Certifications() {
     </Col>
 
     
-    </Row>
-
-    <Row className="cert_rows">
+    
     <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/"> <Card.Img variant="top" className='certification_img'  src={ML}/></a>
@@ -165,9 +163,9 @@ function Certifications() {
       </Card.Body>
     </Card>
     </Col>
-    </Row>
+    
 
-    <Row className = 'cert_rows'>
+  
     <Col md ='4' className="cerfication_col">
     <Card className='certification_card '>
     <a href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/"> <Card.Img variant="top" className='certification_img'  src={web}/></a>
