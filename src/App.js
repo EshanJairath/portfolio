@@ -14,6 +14,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Stratification from "./components/Blogs/BlogPosts/Stratification";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -40,6 +41,7 @@ function App() {
         <Route path="/blogs" element={<BlogHome />} />
         <Route path="/blogs/differential_privacy" element={<DiffPriv/>}/>
         <Route path="/blogs/data_drift" element={<DataDrift/>}/>
+        <Route path="/blogs/strat" element={<Stratification/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

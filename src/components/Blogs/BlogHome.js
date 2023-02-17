@@ -4,6 +4,7 @@ import Particle from '../Particle'
 import BlogCards from './BlogCards'
 import diff_pri from '../../Assets/Blogs/diff_pri.png'
 import data_drift from '../../Assets/Blogs/data_drift.png'
+import strat from '../../Assets/Blogs/stratified.jpg'
 
 
 function BlogHome() {
@@ -17,6 +18,16 @@ function BlogHome() {
     <p style={{ color: "white", fontSize:'1.4em' }}>
           I post my blogs Here 👇
     </p>
+
+    <BlogCards
+    imgPath = {strat}
+    title = 'Stratification of data to mitigate Bias'
+    date = '17 February 2023.'
+    description = 'Stratification of data is a technique used in data science to ensure that different groups within a dataset are represented fairly and proportionately. This is particularly important when working with datasets that have imbalanced class distributions, as this can lead to bias in the model predictions.'
+    link = '/blogs/strat'
+    />
+
+
     <BlogCards
     imgPath = {data_drift}
     title = 'Data Drift '

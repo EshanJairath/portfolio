@@ -33,18 +33,18 @@ function Home2() {
               <ul className="mt-3">
                 <li className="mt-2">
                 Proficient in programming languages such as <span className="purple">  Python</span> and
-                 <span className="purple">JavaScript.</span> 
+                 <span className="purple"> JavaScript.</span> 
                 </li>
                 
                 <li className="mt-2">
-                Strong understanding of <span className="purple"> data structures</span>  and <span className="purple"> algorithms.</span> 
+                Strong understanding of <span className="purple"> data structures</span> and <span className="purple"> algorithms.</span> 
                 </li>
 
                 <li className="mt-2">Experienced in utilizing <span className="purple"> machine learning </span> and <span className="purple"> deep learning</span>  frameworks such as <span style={{color:'cyan'}}>Scikit-learn, TensorFlow, Pandas, </span> and <span style={{color:'cyan'}}> computer vision </span>, as well as expertise in <span style={{color:'cyan'}}> neural networks, NLP, reinforcement learning,</span> and <span style={{color:'cyan'}}>ELT pipelines.</span>  </li>
 
                 <li className="mt-2">
-                  Extensive knowledge of <span className="purple"> Artificial Intelligence </span> 
-                  and <span className="purple">digital technologies </span>
+                  Extensive knowledge of <span className="purple">  Artificial Intelligence </span> 
+                  and <span className="purple"> digital technologies </span>
                   
                 </li>
 
