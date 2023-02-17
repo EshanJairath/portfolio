@@ -71,7 +71,10 @@ function Stratification() {
     One common example of bias in machine learning is when a dataset is not representative of the population it is supposed to model. For example, a dataset may be mostly composed of individuals from a certain race or gender, while the population it is supposed to model is more diverse. This can lead to a biased model that performs well on the training dataset but poorly on unseen data.
 
     </p>
-    
+
+    <p className='blog_post_paragraph'>Stratification of data is an effective way to mitigate bias in datasets with imbalanced class distributions. It ensures that the different groups within a dataset are represented fairly and proportionately, leading to more robust and accurate models. However, it is important to note that stratification alone might not be enough to mitigate bias in some cases, and other techniques such as oversampling or undersampling may be required. </p>
+
+   
 
 
     </Col>
@@ -94,12 +97,15 @@ Stratification is a method of ensuring that the different groups within a datase
       <ToastContainer />
       <Button onClick={handleCopy_1} variant='primary'> Copy to clipboard</Button>
 
-      <p className='blog_post_paragraph'>Stratification of data is an effective way to mitigate bias in datasets with imbalanced class distributions. It ensures that the different groups within a dataset are represented fairly and proportionately, leading to more robust and accurate models. However, it is important to note that stratification alone might not be enough to mitigate bias in some cases, and other techniques such as oversampling or undersampling may be required. </p>
+      <p className='blog_post_paragraph'>
+      In this example, we used the make_classification function from scikit-learn to generate a dataset with imbalanced class distribution, where one class is under-represented. We then used the train_test_split function with the "stratify" argument set to "y" to ensure that the class distribution is maintained in the training and test datasets.
+    </p>
 
-      <hr/>
+    <p className='blog_post_paragraph' style={{color:'cyan'}}>Conclusion</p>
+    <p className='blog_post_paragraph'>In conclusion, stratification of data is an important technique in data science that ensures that different groups within a dataset are represented fairly and proportionately. By using stratification, we can mitigate bias in datasets with imbalanced class distributions and build more robust and accurate models. It is important to consider stratification as a technique for handling bias in data science projects, especially when dealing with imbalanced datasets.
+    </p>
 
-      <p className='blog_post_paragraph'>In conclusion, stratification of data is an important technique in data science that ensures that different groups within a dataset are represented fairly and proportionately. By using stratification, we can mitigate bias in datasets with imbalanced class distributions and build more robust and accurate models. It is important to consider stratification as a technique for handling bias in data science projects, especially when dealing with imbalanced datasets.
-      </p>
+     
     </div>
     </Col>
     </Row>
