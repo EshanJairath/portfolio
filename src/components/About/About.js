@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import CoverImg from "../../Assets/MyImg_2.jpg";
 import ai_900 from "../../Assets/Certifications/AI-900.png"
 import Toolstack from "./Toolstack";
 import Badge from 'react-bootstrap/Badge';
@@ -13,7 +13,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import Tilt from "react-parallax-tilt";
 import Certifications from "./Certifications";
+import ReactTooltip from "react-tooltip";
 
 
 function About(props) {
@@ -42,10 +44,15 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "16%", paddingBottom: "30px" }}
+            style={{ paddingTop: "10%", paddingBottom: "30px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+          <Tilt>
+            <img src={CoverImg} alt="about" className="img-fluid about_cover_img" data-tip data-for="me_2"/>
+            </Tilt>
+            <ReactTooltip id="me_2" place="bottom" type="light"   effect="solid">
+            👆 This is also Me. 😎
+            </ReactTooltip>
           </Col>
         </Row>
         <hr/>
@@ -114,6 +121,31 @@ function About(props) {
     <div className= 'mt-5 pt-5'>
     <h2>WORK AND RESEARCH <strong className="purple">EXPERIENCE</strong> </h2>
     <ListGroup className='mt-3 about_list_group' as="ol">
+    <ListGroup.Item
+    as="li"
+    className="d-flex justify-content-between align-items-start"
+  >
+    <div className=" me-auto">
+      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> AI Innovation Engineer 💡
+      </p>
+      <p Style="font-size:1.8em" className="m-0 list_grp_org"> IMIS Global , Newcastle 🇬🇧 </p>
+      <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Present 🟢</p>
+      <ul className='m-3'>
+      <li className="about_list_item" Style="font-size:1.3em">
+      Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels 🌎. 
+      </li>
+      <br/>
+      <li className="about_list_item" Style="font-size:1.3em"> Innovating the use of historical  and real-time ⌛ data in developing predictive and more reliable models. </li>
+      <br/>
+      <li className="about_list_item" Style="font-size:1.3em"> Developing AI 🤖 and data work outputs and system enhancements 🧑‍💻 according to the key aims of the Organization.
+      </li>
+      </ul>
+      
+    </div>
+    
+  </ListGroup.Item>
+
+
     <ListGroup.Item
       as="li"
       className="d-flex justify-content-between align-items-start"

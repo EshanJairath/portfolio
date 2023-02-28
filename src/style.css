@@ -485,12 +485,18 @@ button:focus {
   padding: 0 !important;
 }
 
+.quote{
+font-size: 0.9em !important;
+
+}
+
 .blockquote-footer {
   color: #a588c0 !important;
 }
 /* --------- */
 /* Projects */
 /* --------- */
+
 
 .project-section {
   position: relative !important;
@@ -667,6 +673,9 @@ button:focus {
   padding-left: 1px !important;
 }
 
+.about_cover_img{
+  border-radius: 20px !important;
+}
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
@@ -723,7 +732,7 @@ button:focus {
     font-size: 1em !important;
   }
   .about_text{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   .blockquote-footer{
     font-size: 0.6em !important;
