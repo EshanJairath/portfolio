@@ -20,15 +20,30 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="home_about_head" style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body mt-5">
             Ambitious, and talented engineer with exceptional computer science skills 🧑‍💻  and a master's degree 🎓  in Artificial Intelligence 🤖. Worked for small start-ups in Artificial Intelligence, Machine Learning, Data science, and software engineering departments. Gained experience 📈 in managing teams and building software applications from scratch 🛠️ by working on a variety of small and large-scale projects 🗃️. 
-            
-              <br />
-              <br />
-              <h style ={{fontSize :'1.6em' }} > My top <span className="purple">Skills</span></h>
+            </p>
+          </Col>
+
+          <Col md={4} className="myAvtar">
+          <Tilt>
+            <img src={myImg} id="me" className=" img-fluid home_my_img mt-4" alt="avatar" data-tip data-for="me" />
+          </Tilt>
+          <ReactTooltip id="me" place="bottom" type="light"   effect="solid">
+          👆 This is Me. 😎
+          </ReactTooltip>
+          </Col>
+          </Row>
+
+
+
+          <Row>
+          <Col md = {8} className = 'home_skills mt-5' >
+          <p className="home-about-body">
+          <h style ={{fontSize :'1.6em' }} > My top <span className="purple">Skills</span></h>
               <br/>
               <ul className="mt-3">
                 <li className="mt-2">
@@ -113,31 +128,22 @@ function Home2() {
                </li>
 
               </ul>
-              <br />
-
-            </p>
+              </p>
           </Col>
-          <Col md={4} className="myAvtar">
-          <div style={{display: "inline-block", width: "auto"}}>
-          <Tilt>
-            <img src={myImg} id="me" className="img-fluid home_my_img" alt="avatar" data-tip data-for="me" />
-          
-          </Tilt>
-          <ReactTooltip id="me" place="bottom" type="light"   effect="solid">
-          👆 This is Me. 😎
-          </ReactTooltip>
-          </div>
-            
-         
 
-            <div className="mt-4 tech-stack-home">
+          <Col md ={4} className = "home_techStack mt-5" >
+          <div className="mt-4 tech-stack-home">
               <Techstack/>
             </div>
+            </Col>
+          </Row>
+              
 
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
+            
+          
+        
+        <Row className="mt-5">
+          <Col md={12} className="home-about-social mt-5">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me

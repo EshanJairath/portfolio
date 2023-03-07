@@ -342,13 +342,12 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
   }
 }
 .supporting_text{
@@ -356,12 +355,17 @@ button:focus {
   font-size: 0.8rem;
 }
 
-.home_my_img{
-  margin:auto;    
-  display: block;
-  border-radius: 20px;
 
-  width: 90%;
+
+.home_my_img{ 
+  display: flex;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto !important;
+}
+
+.home_about_head{
+  margin-top: 1.5em !important;
 }
 
 .home-about-section {
@@ -369,12 +373,28 @@ button:focus {
   padding-bottom: 150px !important;
   padding-top: 150px !important;
 }
+.Row {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+}
+
+.myAvtar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+}
+.home_skills{
+  color: white;
 }
 
 .home-about-body {
@@ -464,6 +484,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+
+  .home_about_head{
+    margin-top: 0.5em !important;
+  }
+  .home-about-description {
+    color: white !important;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+  }
+
   .footer-copywright {
     text-align: center !important;
   }
@@ -526,7 +557,7 @@ font-size: 0.9em !important;
 }
 
 .proj_card_img{
-  height: 30vh !important;
+  height: 38vh !important;
 }
 
 
@@ -623,7 +654,7 @@ font-size: 0.9em !important;
 }
 
 .tech-icons {
-  font-size: 2.4em !important;
+  font-size: 3.3em !important;
   margin: 10px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
