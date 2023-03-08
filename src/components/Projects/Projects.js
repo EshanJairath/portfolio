@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import heart from "../../Assets/Projects/human-heart.png";
 import flood from "../../Assets/Projects/FLood.jpg"
+import ships from "../../Assets/Projects/Ships.jpeg"
 import imgcla from "../../Assets/Projects/Img_classifier.jpg";
 import fd from "../../Assets/Projects/fraud-detection.png";
 import NLP from "../../Assets/Projects/NLP.jpg"
@@ -34,8 +35,18 @@ function Projects() {
           This project aimed to predict flood extents using geospatial data extracted from Google Earth Engine. A machine learning regression model was built and trained on this data, which was then used to predict floodwater percentages in a test region. The ultimate goal of this project was to assist disaster management efforts by providing accurate predictions of floodwater percentages, which can be used to inform evacuation decisions in high-risk areas."
 
         />
-      </Col>  
-        
+      </Col>
+      
+      <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={ships}
+          isBlog={false}
+          title="Vessel Classification with AIS data "
+          description="
+          This project aims to develop a machine learning classification model using LGBM to identify the type of ships in the Kattegat Strait region based on their features such as width, length, course, and speed. The dataset used in this project is extracted from open source AIS information provided by Denmark Maritime Authority (DMA). The ultimate goal of this project is to provide accurate ship classification to assist in areas such as maritime security, vessel traffic management, and environmental monitoring."
+
+        />
+        </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={heart}
