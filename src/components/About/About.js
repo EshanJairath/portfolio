@@ -22,8 +22,7 @@ function About(props) {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <Container>
-      
+      <div className="about_section">
         <Row style={{ justifyContent: "center", padding: "10px" }}>
         <hr/>
         
@@ -56,7 +55,7 @@ function About(props) {
           </Col>
         </Row>
         <hr/>
-        <div className='mt-5 pt-5'>
+        <div className='mt-5 pt-5 about_sub_section'>
         <h2 className='text-uppercase'> My <strong className="purple"> Education </strong></h2>
         <ListGroup className='mt-3 about_list_group'  as="ol">
         <ListGroup.Item
@@ -118,7 +117,7 @@ function About(props) {
       </div>
 
     
-    <div className= 'mt-5 pt-5'>
+    <div className= 'mt-5 pt-5 about_sub_section'>
     <h2>WORK AND RESEARCH <strong className="purple">EXPERIENCE</strong> </h2>
     <ListGroup className='mt-3 about_list_group' as="ol">
     <ListGroup.Item
@@ -212,8 +211,8 @@ function About(props) {
    
   </ListGroup>
     </div>    
-        <Certifications/>
-      </Container>
+    <Certifications/>
+    </div>
     </Container>
     
   );

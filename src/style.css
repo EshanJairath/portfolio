@@ -741,6 +741,14 @@ font-size: 0.9em !important;
  margin-top: 30%;
 }
 
+.about_section{ 
+  padding: 20px !important;
+}
+
+.about_sub_section{
+  padding: 10px !important;
+}
+
 @media (max-width: 767px) {
   /* .resume{
     max-width: 80% !important;
@@ -755,6 +763,9 @@ font-size: 0.9em !important;
     padding-left: 15px !important;
   } */
 
+  .about_section{ 
+    padding: 0px !important;
+  }
   .Cert_card_btns{
     margin: 10px !important;
   }
