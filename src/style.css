@@ -282,7 +282,6 @@ button:focus {
 }
 
 .tech-stack-home{
-  padding: 10px;
   color: white;
   text-align: center;
 
@@ -646,7 +645,7 @@ font-size: 0.9em !important;
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -678,7 +677,9 @@ font-size: 0.9em !important;
   .proj_card_img{
     height: 25vh !important;
   }
-  
+  .about-section{
+  padding-top: 100px !important;
+}
 }
 
 .tech-icons:hover {

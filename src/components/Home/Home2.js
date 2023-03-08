@@ -133,7 +133,7 @@ function Home2() {
 
           <Col md ={4} className = "home_techStack mt-5" >
           <div className="mt-4 tech-stack-home">
-              <Techstack/>
+            <Techstack/>
             </div>
             </Col>
           </Row>
