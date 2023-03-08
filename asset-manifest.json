@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.48e0a065.css",
-    "main.js": "/portfolio/static/js/main.0b20dfe7.js",
+    "main.js": "/portfolio/static/js/main.0588af2b.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MovieBlitz.png": "/portfolio/static/media/MovieBlitz.aa08a96db02124e4722f.png",
@@ -9,6 +9,7 @@
     "static/media/MyImg_2.jpg": "/portfolio/static/media/MyImg_2.d911c3ac5dea4e6103db.jpg",
     "static/media/netflix.png": "/portfolio/static/media/netflix.cab22aaf07478fccbf56.png",
     "static/media/instagramclone.png": "/portfolio/static/media/instagramclone.cf4d57da4af3e30d5f66.png",
+    "static/media/Ships.jpeg": "/portfolio/static/media/Ships.95a36cc622254a4697bd.jpeg",
     "static/media/diff_pri.png": "/portfolio/static/media/diff_pri.b00ebfa68c47abc63093.png",
     "static/media/DL.jpg": "/portfolio/static/media/DL.46783d8cb32581d0c1a0.jpg",
     "static/media/EshanCV.pdf": "/portfolio/static/media/EshanCV.934d8a87eaad07934747.pdf",
@@ -30,12 +31,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.48e0a065.css.map": "/portfolio/static/css/main.48e0a065.css.map",
-    "main.0b20dfe7.js.map": "/portfolio/static/js/main.0b20dfe7.js.map",
+    "main.0588af2b.js.map": "/portfolio/static/js/main.0588af2b.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48e0a065.css",
-    "static/js/main.0b20dfe7.js"
+    "static/js/main.0588af2b.js"
   ]
 }
