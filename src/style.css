@@ -518,7 +518,6 @@ button:focus {
 
 .quote{
 font-size: 0.9em !important;
-
 }
 
 .blockquote-footer {
@@ -763,8 +762,11 @@ font-size: 0.9em !important;
     font-size: 1em !important;
   }
   .about_text{
-    font-size: 0.7em;
+    font-size: 1em;
   }
+  .quote{
+    font-size: 0.7em !important;
+    }
   .blockquote-footer{
     font-size: 0.6em !important;
   }
