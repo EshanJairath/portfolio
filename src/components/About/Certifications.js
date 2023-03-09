@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import ai_900 from "../../Assets/Certifications/AI-900.png"
 import dp_900 from "../../Assets/Certifications/dp-900.png"
 import dp_100 from "../../Assets/Certifications/dp-100.png"
+import proj_mg from "../../Assets/Certifications/Google.png"
 import ML from "../../Assets/Certifications/Machine--Learning.jpg"
 import DL from "../../Assets/Certifications/DL.jpg"
 import python from "../../Assets/Certifications/python.png"
@@ -18,6 +19,24 @@ function Certifications() {
     
     <div>
     <Row className="cert_rows">
+
+
+    <Col md ='4' className="cerfication_col">
+    <Card className='certification_card'>
+    <a href="https://drive.google.com/file/d/1gQwSm3Nci317WlYD3iJVXUTAG507bFMg/view?usp=sharing"> <Card.Img variant="top" className='certification_img'  src={proj_mg}/></a>
+
+      <Card.Body>
+        <Card.Title className='purple'>Foundation of Project Management</Card.Title>
+        <p className='supporting_text'>Issued by Google.</p>
+        <Card.Text>
+        This Course covers foundational terminology and concepts of project management, along with an understanding of the roles and responsibilities of a project manager. Equip the Learners with the core skills necessary for success in project management
+        </Card.Text>
+        <Button className="Cert_card_btns" href="https://drive.google.com/file/d/1gQwSm3Nci317WlYD3iJVXUTAG507bFMg/view?usp=sharing">Certificate</Button>
+
+        <Button className="Cert_card_btns" href="https://www.coursera.org/learn/project-management-foundations">About Certification</Button>
+      </Card.Body>
+    </Card>
+    </Col>
 
     <Col md ='4' className="cerfication_col">
     <Card className='certification_card'>
@@ -96,7 +115,7 @@ function Certifications() {
           </li>
         </ul>
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/">View Certification</Button>
+        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/">Certificate</Button>
 
         <Button className="Cert_card_btns" href="https://www.udemy.com/course/machinelearning/">About Certification</Button>
       </Card.Body>
@@ -121,7 +140,7 @@ function Certifications() {
           </li>
         </ul>
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-64e4a830-3991-42b9-ac5f-2adea6ba4aed/">View Certification</Button>
+        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-64e4a830-3991-42b9-ac5f-2adea6ba4aed/"> Certificate</Button>
 
         <Button className="Cert_card_btns" href="https://www.udemy.com/course/deeplearning/">About Certification</Button>
       </Card.Body>
@@ -157,7 +176,7 @@ function Certifications() {
           </li>
         </ul>
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-9d67e1f1-f4b1-4054-91df-7bcf9c6e3618/">View Certification</Button>
+        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-9d67e1f1-f4b1-4054-91df-7bcf9c6e3618/">Certificate</Button>
 
         <Button className="Cert_card_btns" href="https://www.udemy.com/course/complete-python-bootcamp/">About Certification</Button>
       </Card.Body>
@@ -193,7 +212,7 @@ function Certifications() {
           <li>Responsive Web Applications</li>
         </ul>
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/">View Certification</Button>
+        <Button className="Cert_card_btns" href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/">Certificate</Button>
 
         <Button className="Cert_card_btns" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">About Certification</Button>
       </Card.Body>
