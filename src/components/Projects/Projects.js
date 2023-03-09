@@ -44,6 +44,7 @@ function Projects() {
           title="Vessel Classification with AIS data "
           description="
           This project aims to develop a machine learning classification model using LGBM to identify the type of ships in the Kattegat Strait region based on their features such as width, length, course, and speed. The dataset used in this project is extracted from open source AIS information provided by Denmark Maritime Authority (DMA). The ultimate goal of this project is to provide accurate ship classification to assist in areas such as maritime security, vessel traffic management, and environmental monitoring."
+          ghLink= "https://github.com/EshanJairath/AIS-Ship_classification-"
 
         />
         </Col>

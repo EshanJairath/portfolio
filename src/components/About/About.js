@@ -43,7 +43,7 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "10%", paddingBottom: "30px" }}
+            style={{ paddingTop: "1%", paddingBottom: "30px" }}
             className="about-img"
           >
           <Tilt>
