@@ -52,4 +52,4 @@ function App() {
 
 export default App;
 
-// <
+// homepage": "https://portfolio-eshanjairath.vercel.app", in package.json
