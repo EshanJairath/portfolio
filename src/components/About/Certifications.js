@@ -17,8 +17,8 @@ function Certifications() {
     <div className="mt-5 pt-5">
     <h1> MY <strong className="purple"> CERTIFICATIONS</strong></h1>
     
-    <div>
-    <Row className="cert_rows">
+    <div >
+    <Row >
 
 
     <Col md ='4' className="cerfication_col">

@@ -53,3 +53,5 @@ function App() {
 export default App;
 
 // homepage": "https://portfolio-eshanjairath.vercel.app", in package.json
+// When needed to reupload to github add the above line to package.json
+// and then add the /portfolio in the base command on line 31 
