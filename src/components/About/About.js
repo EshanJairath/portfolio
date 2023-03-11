@@ -56,7 +56,7 @@ function About(props) {
         </Row>
         <hr/>
 
-        <div className='mt-5 pt-5 container'>
+        <div className='mt-5 pt-5 about_comp'>
         <h2 className='text-uppercase'> My <strong className="purple"> Education </strong></h2>
         <ListGroup className='mt-3 about_list_group'  as="ol">
         <ListGroup.Item
@@ -132,7 +132,7 @@ function About(props) {
       <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Present 🟢</p>
       <ul className='m-3'>
       <li className="about_list_item">
-      Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels 🌍. 
+      Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels. 
       </li>
       <br/>
       <li className="about_list_item"> Innovating the use of historical  and real-time ⌛ data in developing predictive and more reliable models. </li>
