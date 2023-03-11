@@ -22,8 +22,8 @@ function About(props) {
   return (
     <Container fluid className="about-section">
       <Particle />
-      <div className="about_section">
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+      <div>
+        <Row className="about_comp">
         <hr/>
         
         <Col
@@ -35,7 +35,7 @@ function About(props) {
             }}
           >
           
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             <hr/>
             </h1>
@@ -43,7 +43,7 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "1%", paddingBottom: "30px" }}
+            style={{ paddingTop: "6%", paddingBottom: "30px" }}
             className="about-img"
           >
           <Tilt>
@@ -55,7 +55,8 @@ function About(props) {
           </Col>
         </Row>
         <hr/>
-        <div className='mt-5 pt-5 about_sub_section'>
+
+        <div className='mt-5 pt-5 about_comp'>
         <h2 className='text-uppercase'> My <strong className="purple"> Education </strong></h2>
         <ListGroup className='mt-3 about_list_group'  as="ol">
         <ListGroup.Item
@@ -117,7 +118,7 @@ function About(props) {
       </div>
 
     
-    <div className= 'mt-5 pt-5 about_sub_section'>
+    <div className= 'mt-5 pt-5 about_comp'>
     <h2>WORK AND RESEARCH <strong className="purple">EXPERIENCE</strong> </h2>
     <ListGroup className='mt-3 about_list_group' as="ol">
     <ListGroup.Item
@@ -130,13 +131,13 @@ function About(props) {
       <p Style="font-size:1.8em" className="m-0 list_grp_org"> IMIS Global , Newcastle 🇬🇧 </p>
       <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Present 🟢</p>
       <ul className='m-3'>
-      <li className="about_list_item" Style="font-size:1.3em">
-      Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels 🌎. 
+      <li className="about_list_item">
+      Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels. 
       </li>
       <br/>
-      <li className="about_list_item" Style="font-size:1.3em"> Innovating the use of historical  and real-time ⌛ data in developing predictive and more reliable models. </li>
+      <li className="about_list_item"> Innovating the use of historical  and real-time ⌛ data in developing predictive and more reliable models. </li>
       <br/>
-      <li className="about_list_item" Style="font-size:1.3em"> Developing AI 🤖 and data work outputs and system enhancements 🧑‍💻 according to the key aims of the Organization.
+      <li className="about_list_item"> Developing AI 🤖 and data work outputs and system enhancements 🧑‍💻 according to the key aims of the Organization.
       </li>
       </ul>
       
@@ -155,12 +156,12 @@ function About(props) {
         <p Style="font-size:1.8em" className="m-0 list_grp_org"> Northumbria University, Newcastle 🇬🇧 </p>
         <p Style="font-size:1.2em" className="dark_color">July 2022- Sept 2022</p>
         <ul className='m-3'>
-        <li className="about_list_item" Style="font-size:1.3em">Conducted academic research on flood extent prediction using geospatial data extracted from the google earth engine and build a machine-learning regression model which acquired an NSE (Nash–Sutcliffe model efficiency coefficient) of <span style={{ color: "green" }}>0.83</span>  and RMSE of <span style={{ color: "green" }}> 0.27</span>.
+        <li className="about_list_item">Conducted academic research on flood extent prediction using geospatial data extracted from the google earth engine and build a machine-learning regression model which acquired an NSE (Nash–Sutcliffe model efficiency coefficient) of <span style={{ color: "green" }}>0.83</span>  and RMSE of <span style={{ color: "green" }}> 0.27</span>.
         </li>
         <br/>
-        <li className="about_list_item" Style="font-size:1.3em">The main objective of this model was to predict floodwater  percentages in the test region which can further allow disaster management to start evacuation of the regions with the highest flood percentage.</li>
+        <li className="about_list_item">The main objective of this model was to predict floodwater  percentages in the test region which can further allow disaster management to start evacuation of the regions with the highest flood percentage.</li>
         <br/>
-        <li className="about_list_item" Style="font-size:1.3em"> Marks Obtained : <span style={{ color: "green" }}>72</span>/100 <span className="dark_color">(Distinction)</span>🏅
+        <li className="about_list_item"> Marks Obtained : <span style={{ color: "green" }}>72</span>/100 <span className="dark_color">(Distinction)</span>🏅
         </li>
         </ul>
         
@@ -178,11 +179,11 @@ function About(props) {
         <p Style="font-size:1.6em" className="m-0 list_grp_org"> Print it Out, New Delhi, India 🇮🇳 </p>
         <p Style="font-size:1.2em" className="dark_color"> May 2021 – Aug 2021</p>
         <ul className='m-3'>
-        <li className="about_list_item" Style="font-size:1.3em">Gathering the necessary facial data, pre-processing it, training, testing, and evaluating the models in real-world 
+        <li className="about_list_item">Gathering the necessary facial data, pre-processing it, training, testing, and evaluating the models in real-world 
         scenarios by detecting the faces of the team members in real time
         </li>
         <br/>
-        <li className="about_list_item" Style="font-size:1.3em">Boosted the Accuracy of the face detection algorithm to <span style={{ color: "green" }}> 91%</span> 🤩  on the testing data by choosing the right configuration of the necessary computer vision models, certain image pre-processing techniques and hyper-parameter tuning 🛠️ .</li>
+        <li className="about_list_item">Boosted the Accuracy of the face detection algorithm to <span style={{ color: "green" }}> 91%</span> 🤩  on the testing data by choosing the right configuration of the necessary computer vision models, certain image pre-processing techniques and hyper-parameter tuning 🛠️ .</li>
         </ul>
 
         
@@ -200,18 +201,21 @@ function About(props) {
       <p Style="font-size:1.6em" className="m-0 list_grp_org">Pixxmo, New Delhi, India 🇮🇳 </p>
       <p Style="font-size:1.2em" className="dark_color"> Nov 2020 – May 2021</p>
       <ul className='m-3'>
-      <li className="about_list_item" Style="font-size:1.3em">Developed system analysis reports and system designs in accordance with the requirements of the projects after closely collaborating with clients and various teams
+      <li className="about_list_item">Developed system analysis reports and system designs in accordance with the requirements of the projects after closely collaborating with clients and various teams
       </li>
       <br/>
-      <li className="about_list_item" Style="font-size:1.3em">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span> 📉 by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
+      <li className="about_list_item">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span> 📉 by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
       </ul>
     </div>
     
   </ListGroup.Item>
    
   </ListGroup>
-    </div>    
+    </div> 
+    <div className=" about_comp">
     <Certifications/>
+    </div>   
+  
     </div>
     </Container>
     

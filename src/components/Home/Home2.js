@@ -18,7 +18,7 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row className="home_about_page">
           <Col md={8} className="home-about-description">
             <h1 className="home_about_head" style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -30,7 +30,7 @@ function Home2() {
 
           <Col md={4} className="myAvtar">
           <Tilt>
-            <img src={myImg} id="me" className=" img-fluid home_my_img mt-4" alt="avatar" data-tip data-for="me" />
+            <img src={myImg} id="me" className=" img-fluid home_my_img" alt="avatar" data-tip data-for="me" />
           </Tilt>
           <ReactTooltip id="me" place="bottom" type="light"   effect="solid">
           👆 This is Me. 😎
@@ -43,7 +43,7 @@ function Home2() {
           <Row>
           <Col md = {8} className = 'home_skills mt-5' >
           <p className="home-about-body">
-          <h style ={{fontSize :'1.6em' }} > My top <span className="purple">Skills</span></h>
+          <h1 style ={{fontSize :'2em' }} > My top <span className="purple">Skills</span></h1>
               <br/>
               <ul className="mt-3">
                 <li className="mt-2">
@@ -131,7 +131,7 @@ function Home2() {
               </p>
           </Col>
 
-          <Col md ={4} className = "home_techStack mt-5" >
+          <Col md ={4} className = "mt-5" >
           <div className="mt-4 tech-stack-home">
             <Techstack/>
             </div>

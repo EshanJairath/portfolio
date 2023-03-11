@@ -13,7 +13,7 @@ import web from "../../Assets/Certifications/web.png"
 
 function Certifications() {
   return (
-    <div className='about_sub_section'>
+    <div>
     <div className="mt-5 pt-5">
     <h1> MY <strong className="purple"> CERTIFICATIONS</strong></h1>
     
