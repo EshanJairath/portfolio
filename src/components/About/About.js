@@ -23,7 +23,7 @@ function About(props) {
     <Container fluid className="about-section">
       <Particle />
       <div>
-        <Row className="about_comp">
+        <Row className="about_comp ">
         <hr/>
         
         <Col
@@ -43,38 +43,39 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "6%", paddingBottom: "30px" }}
+            style={{ paddingTop: "20px", paddingBottom: "30px" }}
             className="about-img"
           >
           <Tilt>
-            <img src={CoverImg} alt="about" className="img-fluid about_cover_img" data-tip data-for="me_2"/>
+            <img src={CoverImg} alt="about" className=" about_cover_img" data-tip data-for="me_2"/>
             </Tilt>
             <ReactTooltip id="me_2" place="bottom" type="light"   effect="solid">
             👆 This is also Me. 😎
             </ReactTooltip>
           </Col>
+          <hr/>
         </Row>
-        <hr/>
+        
 
-        <div className='mt-5 pt-5 about_comp'>
+        <div className='mt-5 pt-5 container'>
         <h2 className='text-uppercase'> My <strong className="purple"> Education </strong></h2>
         <ListGroup className='mt-3 about_list_group'  as="ol">
         <ListGroup.Item
           as="li"
-          className="justify-content-between align-items-start "
+          className=" align-items-start "
         >
           <div className="container">
           <Row>
-          <Col md='10'>
+          <Col md={9}>
           <p Style="font-size:1.8em" className="fw-bold list_grp_title ">Master's |  Post-Graduation 🧑‍🎓</p>
           <a Style="font-size:1.3em" className="about_links" href="https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-artificial-intelligence-dtfari6/">
           MSc. Artificial Intelligence, Northumbria University, Newcastle, United Kingdom. 🇬🇧
           </a>
           <p Style="font-size:1.2em" className="dark_color">2021- 2022</p>
           </Col>
-          <Col md ='2'>
+          <Col md ={3}>
           <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
-            <p Style="font-size:1.3em" className='m-1 ml-auto' > Overall Grade - 2 : 1</p>
+            <p Style="font-size:1.6em" className='m-1' > Grade - <span  style={{ color: "cyan" }}> Commendation 🏅</span> </p>
           </Badge>
           </Col>
           </Row>
@@ -95,16 +96,16 @@ function About(props) {
         <div className="container">
 
         <Row>
-        <Col md='10'>
+        <Col md={9}>
         <p Style="font-size:1.8em" className="fw-bold list_grp_title">Bachelors's |  Under-Graduation 🎓</p>
         <a Style="font-size:1.3em" href = 'https://www.srmist.edu.in/' className="about_links">
         B. Tech. Computer Science Engineering, SRM University, Delhi NCR, India. 🇮🇳
         </a>
         <p Style= "font-size:1.2em" className="dark_color" >2016 - 2020</p>
         </Col>
-        <Col md ='2'>
+        <Col md ={3}>
         <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
-          <p Style="font-size:1.3em" className='m-1 ml-auto' > Overall Grade - 2 : 1</p>
+          <p Style="font-size:1.6em" className='m-1' > Grade -  <span  style={{ color: "cyan" }}> First Class 🏅</span></p>
         </Badge>
         </Col>
         </Row>

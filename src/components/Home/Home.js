@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/gif3.gif";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -33,14 +33,17 @@ function Home() {
               
             </Col>
 
-            <Col md={5} className='mt-5 pt-3' style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid home_img"
-                style={{ maxHeight: "450px", paddingTop:'20px' }}
-              />
-            </Col>
+            <Col md={5} className="d-flex align-items-center home_img_col" style={{ paddingBottom: 20}}>
+                  <img
+                    src={homeLogo}
+                    alt="home pic"
+                    className="home_img d-block mx-auto"
+                  />
+                </Col>
+
+          
+          
+          
           </Row>
         </Container>
       </Container>

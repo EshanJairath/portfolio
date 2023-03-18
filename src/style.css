@@ -173,6 +173,7 @@ button:focus {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
+  
 }
 
 .navbar-nav .nav-item {
@@ -251,20 +252,28 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 150px !important;
+}
+
+.home-section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-position: top center;
+  background-repeat: no-repeat;
+  filter: brightness(40%);
+  z-index: -1;
 }
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
   height: 100vh;
-  /* padding-bottom: 100px !important;
-  padding-top: 100px !important; */
 }
-
 .home-content {
   padding: 5rem 0 2rem !important;
   color: whitesmoke;
@@ -305,6 +314,19 @@ button:focus {
   padding: 40px;
   text-align: "left"; 
 }
+.home_img_col{
+  height: 85vh !important;
+}
+
+.home_img {
+  max-width: 100%;
+  opacity: 0.9 !important;
+  border-radius: 20px !important;
+}
+
+
+
+
 
 @media (max-width: 767px) {
   .home-content {
@@ -312,8 +334,16 @@ button:focus {
     color: whitesmoke;
     text-align: left;
   }
+  .home-header {
+    padding-top: 60px !important;
+  }
+  .home_img_col{
+    height: 100% !important;
+  }
   .home_img{
-    padding-top: 50px !important;
+    max-width: 100%;
+    margin-top: 150px !important;
+
   }  
   .heading {
     font-size: 2.2em !important;
@@ -658,7 +688,9 @@ font-size: 0.9em !important;
   color: white !important;
 }
 .about_comp{
-  padding: 50px !important;
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .tech-icons {
@@ -720,12 +752,23 @@ font-size: 0.9em !important;
 
 .about_cover_img{
   border-radius: 20px !important;
+  max-width: 80% !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
+.about-img {
+  padding-top: 2% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
 @media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
+  .about_cover_img{
+    width: 80% !important;  
   }
 }
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -753,7 +796,7 @@ font-size: 0.9em !important;
 } */
 
 .score_badge{
- margin-top: 30%;
+ margin-top: 20%;
 }
 
 .about_list_item{
@@ -923,7 +966,7 @@ font-size: 0.9em !important;
   color: #0c0513;
 }
 .main_color{
-  background-color:  #8200cdf7;
+  background-color:  #13001ef7;
 }
 .dark_color{
   color: #8200cdf7 ;
@@ -934,7 +977,7 @@ font-size: 0.9em !important;
 
 .certification_img{
   text-align: center;
-  width: 70% !important;
+  width: 60% !important;
   border-radius: 50px !important;
   margin: auto;    
   display: block;
