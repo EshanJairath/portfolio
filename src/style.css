@@ -252,7 +252,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 150px !important;
+  padding-top: 25vh !important;
 }
 
 .home-section::before {
@@ -281,7 +281,7 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 3.5em !important;
   padding-left: 50px !important;
 }
 
@@ -302,25 +302,25 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
+  color:cyan !important;
+  font-weight: 500 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: cyan !important;
 }
 
 .home-typer {
   padding: 40px;
   text-align: "left"; 
 }
+
 .home_img_col{
   height: 85vh !important;
 }
 
 .home_img {
-  max-width: 100%;
-  opacity: 0.9 !important;
+  width: 100% !important;
   border-radius: 20px !important;
 }
 
@@ -335,7 +335,7 @@ button:focus {
     text-align: left;
   }
   .home-header {
-    padding-top: 60px !important;
+    padding-top: 50px !important;
   }
   .home_img_col{
     height: 100% !important;
@@ -352,12 +352,13 @@ button:focus {
   
   .heading-name {
     font-size: 2.1em !important;
-    padding-left: 15px !important;
+    padding-left: 10px !important;
   }
   .home-typer {
     padding: 10px !important;
-    padding-top: 40px !important ;
+    padding-top: 20px !important ;
     text-align: "left"; 
+    
   }
   .Typewriter__wrapper {
     font-size: 1.4em !important;

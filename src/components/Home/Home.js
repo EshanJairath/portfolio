@@ -13,7 +13,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -21,9 +21,7 @@ function Home() {
                 </span>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Eshan Jairath </strong>
+              <h1 className="heading-name">I'M <strong className="main-name"> Eshan Jairath </strong>
               </h1>
 
               <div  className='home-typer' style={{ }}>
@@ -33,7 +31,7 @@ function Home() {
               
             </Col>
 
-            <Col md={5} className="d-flex align-items-center home_img_col" style={{ paddingBottom: 20}}>
+            <Col md={6} className="d-flex align-items-center home_img_col" style={{ paddingBottom: 20}}>
                   <img
                     src={homeLogo}
                     alt="home pic"
