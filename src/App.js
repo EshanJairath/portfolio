@@ -15,6 +15,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Stratification from "./components/Blogs/BlogPosts/Stratification";
+import Flask from "./components/Blogs/BlogPosts/Flask";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +43,7 @@ function App() {
         <Route path="/blogs/differential_privacy" element={<DiffPriv/>}/>
         <Route path="/blogs/data_drift" element={<DataDrift/>}/>
         <Route path="/blogs/strat" element={<Stratification/>}/>
+        <Route path="/blogs/flask" element={<Flask/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

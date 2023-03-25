@@ -5,6 +5,7 @@ import BlogCards from './BlogCards'
 import diff_pri from '../../Assets/Blogs/diff_pri.png'
 import data_drift from '../../Assets/Blogs/data_drift.png'
 import strat from '../../Assets/Blogs/stratified.jpg'
+import flask from '../../Assets/Blogs/Flask.jpeg'
 
 
 function BlogHome() {
@@ -18,6 +19,15 @@ function BlogHome() {
     <p style={{ color: "white", fontSize:'1.4em' }}>
           I post my blogs Here 👇
     </p>
+
+    <BlogCards
+    imgPath = {flask}
+    title = 'Importance of Flask in Data Science and Machine Learning'
+    date = '25 March 2023.'
+    description = 'Flask is a popular micro web framework for building web applications in Python. It is lightweight, easy to use, and allows for the creation of web applications with minimal setup and configuration. Flask is also becoming increasingly popular in machine learning engineering as it allows for the creation of web-based interfaces for machine learning models.'
+    link = '/blogs/flask'
+    />
+
 
     <BlogCards
     imgPath = {strat}
