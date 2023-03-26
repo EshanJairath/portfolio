@@ -131,8 +131,9 @@ function Home2() {
               </p>
           </Col>
 
-          <Col md ={4} className = "mt-5" >
-          <div className="mt-4 tech-stack-home">
+          <Col md ={4} className = "mt-5">
+          <div className="tech-stack-home mt-3">
+          <h1 style ={{fontSize :'2.1em', marginBottom: '1.5em' }}> My<span className="purple"> Tech</span>  Stack</h1>
             <Techstack/>
             </div>
             </Col>
