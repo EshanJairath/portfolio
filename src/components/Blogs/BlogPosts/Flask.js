@@ -75,8 +75,7 @@ function Flask() {
 <p className='blog_post_paragraph' >
 
 Flask played a vital role in making the heart failure prediction model accessible to users through a RESTful API. By creating a Flask app and defining a route to handle POST requests, I was able to build a lightweight web application that users could access from anywhere, using any device with an internet connection. Flask made it easy to provide predictions based on user input data and return the results in a simple and understandable JSON format.
-
-If you're interested in learning more about this project, please check out the projects section of my portfolio.</p>
+</p>
      
 <p className='blog_post_paragraph' style={{color: 'cyan'}}>
   If you're interested in learning more about this project, please check out the&nbsp;
