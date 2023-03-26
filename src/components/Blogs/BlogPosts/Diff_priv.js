@@ -110,13 +110,9 @@ New Data =>
     <p className='blog_post_paragraph'>
     Differential privacy can be used in a variety of data science applications, such as machine learning, natural language processing, and computer vision. Differential privacy, for example, can be used in machine learning to protect the privacy of individuals whose data is used to train models, whereas it can be used in natural language processing to protect the privacy of individuals whose text data is being analysed.
     </p>
-    <p className='blog_post_paragraph'>
-    Differential privacy is critical in data science and cannot be overstated. With the growing amount of data being collected and analysed, it is critical that we take steps to protect individuals' privacy. Differential privacy enables data scientists to gain valuable insights from data while protecting individuals' privacy. It is an important tool in the data science toolbox.
-    </p>
-    <p className='blog_post_paragraph' style={{color:'cyan'}}>The Conclusion</p>
-    <p className='blog_post_paragraph'>
-    To summarise, differential privacy is an important concept in data science that aims to protect individuals' privacy while still allowing valuable insights to be gained from their data. It is accomplished by employing techniques such as adding noise to data and utilising privacy budgets. It is our responsibility as data scientists to use these techniques while also respecting the privacy of the individuals whose data we are working with.
-    </p>
+    
+   
+   
     </Col>
     
     <Col md={6} className='p-3'>
@@ -136,6 +132,14 @@ New Data =>
 
 
     </div>
+    <p className='blog_post_paragraph'>
+    Differential privacy is critical in data science and cannot be overstated. With the growing amount of data being collected and analysed, it is critical that we take steps to protect individuals' privacy. Differential privacy enables data scientists to gain valuable insights from data while protecting individuals' privacy. It is an important tool in the data science toolbox.
+    </p>
+    <p className='blog_post_paragraph' style={{color:'cyan'}}>The Conclusion</p>
+    <p className='blog_post_paragraph'>
+    To summarise, differential privacy is an important concept in data science that aims to protect individuals' privacy while still allowing valuable insights to be gained from their data. It is accomplished by employing techniques such as adding noise to data and utilising privacy budgets. It is our responsibility as data scientists to use these techniques while also respecting the privacy of the individuals whose data we are working with.
+    </p>
+
     </Col>
     
     </Row>

@@ -7,10 +7,11 @@ import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { toast } from 'react-toastify';
 import Particle from '../../Particle';
 import flask from '../../../Assets/Blogs/Flask.jpeg'
+import heart from "../../../Assets/Projects/human-heart.png";
 
 function Flask() {
     var codeString = `from flask import Flask, request, jsonify
-    from sklearn.externals import joblib
+    import joblib
     
     # Load the model
     model = joblib.load("model.pkl")
@@ -18,15 +19,30 @@ function Flask() {
     # Create the Flask app
     app = Flask(__name__)
     
+    # Define the predict function
+    def predict(data):
+        # Make a prediction using the model
+        prediction = model.predict([list(data.values())])
+        return prediction[0]
+    
     # Create a route for predictions
     @app.route("/predict", methods=["POST"])
-    def predict():
+    def predict_endpoint():
         # Get the data from the request
         data = request.get_json()
-        # Make a prediction using the model
-        prediction = model.predict(data)
+        # Make a prediction using the predict function
+        prediction = predict(data)
         # Return the prediction as a JSON
-        return jsonify(prediction.tolist `
+        return jsonify({"prediction": int(prediction)})
+    
+    # Define a test route to check if the API is working
+    @app.route("/")
+    def home():
+        return "The API is working!"
+    
+    if __name__ == "__main__":
+        app.run()
+    `
   
   
     
@@ -69,8 +85,9 @@ function Flask() {
        <p className='blog_post_paragraph' style={{color:'cyan'}}>Where I used Flask in combination of machine learning </p>
        <p className='blog_post_paragraph' >
        I made a project using Flask and machine learning to predict the likelihood of heart failure in patients. The project utilized a Random Forest Classification model trained on patient data, including demographic information and medical history, to provide accurate predictions with an accuracy rate of 94%. The project was designed as a web application, which allowed users to input their own information and receive a prediction of their risk of heart failure.
-
-</p>
+     
+       </p>
+       <img src={heart} className='mx-auto d-flex blog_content_img' alt=""/>
 
 <p className='blog_post_paragraph' >
 

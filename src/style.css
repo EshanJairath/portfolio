@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #000000 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -1073,4 +1073,8 @@ border-radius: 30px !important;
   max-width: 80% !important;
   border-radius: 20px !important;
   margin-bottom: 70px !important;
+}
+.blog_content_img{
+  width: 80% !important;
+  border-radius: 20px !important;
 }
