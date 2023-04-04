@@ -71,19 +71,19 @@ for i in range(10):
     <h1> <span className='purple'>D</span>ata  <span className='purple'>D</span>rift</h1>
     <p style={{color:'cyan'}}>Data Science  <span style={{color:'white'}} > | 26 January 2023 .</span></p>
 
-    <p className='blog_post_paragraph' style={{color:'cyan'}}> What is Data Drfit ? </p>
+    <p className='blog_post_paragraph' style={{color:'cyan'}}> What is Data Drift ? </p>
 
     <p className='blog_post_paragraph'>
     Data drift is a phenomenon that occurs when the distribution of the data that a machine learning model is trained on differs significantly from the distribution of the data it is subsequently applied to. This can lead to a decline in model performance, and is a common problem in data science. In this Blog I am going disscuss everything about data drfit, what causes it, how to address it and how to detect it.  
     </p>
 
-    <p className='blog_post_paragraph' style={{color:'cyan'}}> So, What causes this Data Drfit ? </p>
+    <p className='blog_post_paragraph' style={{color:'cyan'}}> So, What causes this Data Drift ? </p>
 
     <p className='blog_post_paragraph'>
     There are several causes of data drift. One is concept drift, which occurs when the underlying concept or task the model is trying to learn changes over time. For example, a model trained to detect fraudulent financial transactions may become less effective as fraudsters adapt their tactics. Another cause is non-stationarity, which occurs when the distribution of the data changes over time, for example, due to seasonal or economic factors.
     </p>
 
-    <p className='blog_post_paragraph' style={{color:'cyan'}}> How to address Data Drfit ? </p>
+    <p className='blog_post_paragraph' style={{color:'cyan'}}> How to address Data Drift ? </p>
 
     <p className='blog_post_paragraph'>
     There are several approaches to addressing data drift. One is to continually retrain the model on new data, known as online learning. This can be done periodically or in real-time, depending on the application and the rate of change of the data..</p>
