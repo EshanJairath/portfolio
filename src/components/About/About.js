@@ -43,7 +43,7 @@ function About(props) {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "20px", paddingBottom: "30px" }}
+            style={{ paddingTop: "20px", paddingBottom: "10px" }}
             className="about-img"
           >
           <Tilt>
@@ -73,7 +73,7 @@ function About(props) {
           </a>
           <p Style="font-size:1.2em" className="dark_color">2021- 2022</p>
           </Col>
-          <Col md ={3}>
+          <Col md ={3} className="badge_about_col">
           <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
             <p Style="font-size:1.6em" className='m-1' > Grade - <span  style={{ color: "cyan" }}> Commendation 🏅</span> </p>
           </Badge>
@@ -103,9 +103,9 @@ function About(props) {
         </a>
         <p Style= "font-size:1.2em" className="dark_color" >2016 - 2020</p>
         </Col>
-        <Col md ={3}>
+        <Col md ={3} className="badge_about_col">
         <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
-          <p Style="font-size:1.6em" className='m-1' > Grade -  <span  style={{ color: "cyan" }}> First Class 🏅</span></p>
+          <p Style="font-size:1.6em" className='m-1' >Final Grade -  <span  style={{ color: "cyan" }}> First Class 🏅</span></p>
         </Badge>
         </Col>
         </Row>
