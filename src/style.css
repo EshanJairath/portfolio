@@ -758,8 +758,9 @@ font-size: 0.9em !important;
   margin: 0 auto !important;
 }
 .about-img {
-  margin-top: 6% !important;
+  margin-top: 50px !important;
   display: flex !important;
+  margin-bottom: 60px !important;
 
 }
 .badge_about_col{
