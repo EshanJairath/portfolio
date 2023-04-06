@@ -752,7 +752,7 @@ font-size: 0.9em !important;
 }
 
 .about_cover_img{
-  border-radius: 20px !important;
+  border-radius: 50% !important;
   max-width: 100% !important;
   display: block !important;
   margin: 0 auto !important;
