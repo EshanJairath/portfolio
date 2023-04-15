@@ -753,9 +753,9 @@ font-size: 0.9em !important;
 
 .about_cover_img{
   border-radius: 50% !important;
-  max-width: 100% !important;
+  max-width: 80% !important;
   display: block !important;
-  margin: 0 auto !important;
+  margin: 20px auto !important;
 }
 .about-img {
   margin-top: 50px !important;

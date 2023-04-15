@@ -15,7 +15,7 @@ function Certifications() {
   return (
     <div>
     <div className="mt-5 pt-5">
-    <h1> MY <strong className="purple"> CERTIFICATIONS</strong></h1>
+    <h1  className="text-center"> MY <strong className="purple"> CERTIFICATIONS 🏆</strong></h1>
     
     <div >
     <Row >

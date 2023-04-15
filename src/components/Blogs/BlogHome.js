@@ -14,10 +14,10 @@ function BlogHome() {
     <Container fluid className='blog_page'>
     
     <Container>
-    <h1 style = {{color: 'white'}}> My <span className='purple'> Blogs 📋 </span> </h1>
+    <h1 className='text-center' style = {{color: 'white'}}> My <span className='purple'> Blogs 📝 </span> </h1>
 
-    <p style={{ color: "white", fontSize:'1.4em' }}>
-          I post my blogs Here 👇
+    <p className='text-center' style={{ color: "white", fontSize:'1.4em' }}>
+          I post all my blogs Here 👇
     </p>
 
     <BlogCards

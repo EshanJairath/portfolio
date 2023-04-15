@@ -35,8 +35,8 @@ function About(props) {
             }}
           >
           
-            <h1 style={{ fontSize: "2em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1  className="text-center" style={{ fontSize: "2em", paddingBottom: "20px" }}>
+              Know Who <strong className="purple">I'M 😀</strong>
             <hr/>
             </h1>
             <Aboutcard />
@@ -57,14 +57,14 @@ function About(props) {
         </Row>
         
     <div className= 'mt-5 pt-5 container'>
-    <h2>WORK AND RESEARCH <strong className="purple">EXPERIENCE</strong> </h2>
+    <h1 className="text-center">WORK <strong className="purple">EXPERIENCE 💼</strong> </h1>
     <ListGroup className='mt-3 about_list_group' as="ol">
     <ListGroup.Item
     as="li"
     className="d-flex justify-content-between align-items-start"
   >
     <div className=" me-auto">
-      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> AI Innovation Engineer 💡
+      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> AI Engineer 💡
       </p>
       <p Style="font-size:1.8em" className="m-0 list_grp_org"> IMIS Global , Newcastle 🇬🇧 </p>
       <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Present 🟢</p>
@@ -89,7 +89,7 @@ function About(props) {
       className="d-flex justify-content-between align-items-start"
     >
       <div className=" me-auto">
-        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Academic Research 📚
+        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Academic Research 📖
         </p>
         <p Style="font-size:1.8em" className="m-0 list_grp_org"> Northumbria University, Newcastle 🇬🇧 </p>
         <p Style="font-size:1.2em" className="dark_color">July 2022- Sept 2022</p>
@@ -152,7 +152,7 @@ function About(props) {
     </div> 
 
     <div className='mt-5 pt-5 container'>
-    <h2 className='text-uppercase'> My <strong className="purple"> Education </strong></h2>
+    <h1  className="text-center"> MY <strong className="purple"> EDUCATION 📚 </strong></h1>
     <ListGroup className='mt-3 about_list_group'  as="ol">
     <ListGroup.Item
       as="li"
@@ -169,7 +169,7 @@ function About(props) {
       </Col>
       <Col md ={3} className="badge_about_col">
       <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
-        <p Style="font-size:1.6em" className='m-1' > Grade - <span  style={{ color: "cyan" }}> Commendation 🏅</span> </p>
+        <p Style="font-size:1.4em" className='m-1' > Grade - <span  style={{ color: "cyan" }}> Commendation 🏅</span> </p>
       </Badge>
       </Col>
       </Row>
@@ -199,7 +199,7 @@ function About(props) {
     </Col>
     <Col md ={3} className="badge_about_col">
     <Badge bg="#920be086" className='text-align-center score_badge main_color' pill>
-      <p Style="font-size:1.6em" className='m-1' >Final Grade -  <span  style={{ color: "cyan" }}> First Class 🏅</span></p>
+      <p Style="font-size:1.4em" className='m-1' >Final Grade -  <span  style={{ color: "cyan" }}> First Class 🏅</span></p>
     </Badge>
     </Col>
     </Row>

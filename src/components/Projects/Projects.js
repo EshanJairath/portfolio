@@ -18,11 +18,11 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Projects 💻 </strong>
+        <h1 className="project-heading text-center">
+          My Recent <strong className="purple">Projects 📊 </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently .
+        <p className='text-center' style={{ color: "white" }}>
+         👇 Here are a few projects I've worked on recently.
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

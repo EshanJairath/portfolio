@@ -21,7 +21,7 @@ function Home2() {
         <Row className="home_about_page">
           <Col md={8} className="home-about-description">
             <h1 className="home_about_head" style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let me <span className="purple"> Introduce </span> Myself 🙋‍♂️
             </h1>
             <p className="home-about-body mt-5">
             Ambitious, and talented engineer with exceptional computer science skills 🧑‍💻  and a master's degree 🎓  in Artificial Intelligence 🤖. Worked for small start-ups in Artificial Intelligence, Machine Learning, Data science, and software engineering departments. Gained experience 📈 in managing teams and building software applications from scratch 🛠️ by working on a variety of small and large-scale projects 🗃️. 
@@ -43,7 +43,7 @@ function Home2() {
           <Row>
           <Col md = {8} className = 'home_skills mt-5' >
           <p className="home-about-body">
-          <h1 style ={{fontSize :'2em' }} > My top <span className="purple">Skills</span></h1>
+          <h1  className="text-center" > My top <span className="purple">Skills 😎</span></h1>
               <br/>
               <ul className="mt-3">
                 <li className="mt-2">
@@ -133,21 +133,18 @@ function Home2() {
 
           <Col md ={4} className = "mt-5">
           <div className="tech-stack-home mt-3">
-          <h1 style ={{fontSize :'2.1em', marginBottom: '1.5em' }}> My<span className="purple"> Tech</span>  Stack</h1>
+          <h1 className="text-center" style ={{marginBottom: '1.2em' }}> <span className="purple text-center"> Tech</span>  Stack 🎉</h1>
             <Techstack/>
             </div>
             </Col>
           </Row>
-              
-
-            
-          
+                               
         
         <Row className="mt-5">
           <Col md={12} className="home-about-social mt-5">
-            <h1>FIND ME ON</h1>
+            <h1>FIND ME ON </h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me 👇
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
