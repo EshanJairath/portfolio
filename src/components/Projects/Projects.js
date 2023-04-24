@@ -12,7 +12,7 @@ import instaClone from "../../Assets/Projects/instagramclone.png";
 import MB from "../../Assets/Projects/MovieBlitz.png";
 import EDA_1 from "./ProjectPages/NetflixEda";
 import Netflix from "../../Assets/Projects/netflix.png";
-
+import ai_system from "../../Assets/Projects/AI_system.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -26,16 +26,7 @@ function Projects() {
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
-        <ProjectCard
-          imgPath={flood}
-          isBlog={false}
-          title="Flood Extent Prediction With Geospatial data"
-          description="
-          This project aimed to predict flood extents using geospatial data extracted from Google Earth Engine. A machine learning regression model was built and trained on this data, which was then used to predict floodwater percentages in a test region. The ultimate goal of this project was to assist disaster management efforts by providing accurate predictions of floodwater percentages, which can be used to inform evacuation decisions in high-risk areas."
-
-        />
-      </Col>
+        
       
       <Col md={4} className="project-card">
         <ProjectCard
@@ -48,6 +39,29 @@ function Projects() {
 
         />
         </Col>
+
+        <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={flood}
+          isBlog={false}
+          title="Flood Extent Prediction With Geospatial data"
+          description="
+          This project aimed to predict flood extents using geospatial data extracted from Google Earth Engine. A machine learning regression model was built and trained on this data, which was then used to predict floodwater percentages in a test region. The ultimate goal of this project was to assist disaster management efforts by providing accurate predictions of floodwater percentages, which can be used to inform evacuation decisions in high-risk areas."
+
+        />
+      </Col>
+
+
+      <Col md={4} className="project-card">
+        <ProjectCard
+          imgPath={ai_system}
+          isBlog={false}
+          title="AI-powered system capable of providing Investment guidance." 
+          description="The AI-powered Investment guidance system is a project aimed at providing users with personalized investment advice using artificial intelligence. The system uses a combination of machine learning algorithms and natural language processing to analyze a user's financial data and risk appetite, and recommend suitable investment options. The system takes into account various factors such as the user's age, income, investment goals, and risk tolerance to provide personalized investment guidance."
+          demoLink = "https://drive.google.com/file/d/1jNY1bm6FHWU430l5DS0odEIuUgkBjL4P/view?usp=sharing"
+        />
+      </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={heart}

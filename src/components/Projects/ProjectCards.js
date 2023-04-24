@@ -22,6 +22,14 @@ function ProjectCards(props) {
             </Button>
         ) : null}
 
+
+        {props.View ? (
+          <Button className="proj_btn-group " variant="primary" href={props.View} target="_blank">
+              <BsGithub /> &nbsp;
+              {props.isView ? "View Project" : "View"}
+          </Button>
+      ) : null}
+
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
         {!props.isBlog && props.demoLink && (
