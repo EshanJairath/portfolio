@@ -380,10 +380,7 @@ button:focus {
     padding-bottom: 1em !important;
   }
 }
-.supporting_text{
-  color: cyan;
-  font-size: 0.8rem;
-}
+
 
 
 
@@ -587,13 +584,24 @@ font-size: 0.9em !important;
   background-color: transparent !important;
   opacity: 1 !important;
   transition: all 0.5s ease 0s !important;
-  height: 107% !important;
-  border-radius: 20px !important;
+  height: 110% !important;
+
 
 }
 
 .proj_card_img{
-  height: 250px !important;
+  width: 100% !important;
+  min-height: 380px !important;
+  max-height: 380px !important;
+  border-radius: 20px !important;
+}
+
+.project_page{
+  padding:0% 5%;
+}
+
+.project_desc{
+  font-size: 1em !important;
 }
 
 
@@ -711,6 +719,23 @@ font-size: 0.9em !important;
 }
 
 @media (max-width: 767px) {
+  .project_page{
+    padding:0%;
+  }
+  .project-section {
+    padding-top: 90px !important;
+  }
+  .proj_card_img{
+    width: 100% !important;
+    min-height: 230px !important;
+    max-height: 230px !important;
+    border-radius: 20px !important;
+  }
+  .project_desc{
+    font-size: 0.8em !important;
+  }
+  
+
   .tech-icons {
     font-size: 2em !important;
     margin: 5px !important;
@@ -718,9 +743,7 @@ font-size: 0.9em !important;
   .project-heading{
     font-size: 2em !important;
   }
-  .proj_card_img{
-    height: 25vh !important;
-  }
+ 
   .about-section{
   padding-top: 100px !important;
 }
@@ -770,6 +793,8 @@ font-size: 0.9em !important;
   margin: 0 auto !important;
 }
 
+
+
 @media (max-width: 767px) {
   .about-img {
     margin-top: 1% !important;
@@ -815,7 +840,9 @@ font-size: 0.9em !important;
 .about_list_item{
   font-size: 1.2em !important;
 }
-
+.blog_home_page{
+  padding: 0% 5%;
+}
 @media (max-width: 767px) {
   /* .resume{
     max-width: 80% !important;
@@ -829,6 +856,8 @@ font-size: 0.9em !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
   } */
+
+
 
 .about_list_item{
   font-size: 0.9em !important;
@@ -860,9 +889,7 @@ font-size: 0.9em !important;
     margin-bottom: 10px;
     }
     
-  .cerfication_col{
-  margin-top: 20px !important;
- }
+
 
 
 
@@ -1008,7 +1035,17 @@ font-size: 0.9em !important;
 .cerfication_col{
   margin-top: 25px !important;
  }
+ .cert_title{
+  font-size: 1.5em !important;
+ }
 
+ .supporting_text{
+  color: cyan;
+
+ }
+ .cert_card_desc{
+  font-size: 1em !important;
+ }
 .Cert_card_btns{
   margin: 10px;
 }
@@ -1031,7 +1068,7 @@ font-size: 0.9em !important;
 }
 .blog_card{
   border-radius: 20px !important;
-  padding: 20px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.3) !important;
   justify-content: center !important;
   
@@ -1055,8 +1092,9 @@ font-size: 0.9em !important;
   font-size: 1.1em !important;
 }
 .blogPost_img{
-width: 90% !important;
-height: 90% !important;
+width: 100% !important;
+min-height: 270px !important;
+max-height: 270px !important;
 padding: 10px !important;
 border-radius: 30px !important;
 }
@@ -1089,4 +1127,39 @@ border-radius: 30px !important;
 .blog_content_img{
   width: 80% !important;
   border-radius: 20px !important;
+}
+
+@media (max-width: 767px) {
+
+  .blog_home_page{
+    padding: 1% !important;
+  }
+  .blog_car_title{
+    font-size: 1.2em !important;
+  }
+  .blog_card_desc{
+    font-size: 0.9em !important;
+  }
+  .blog_post_paragraph{
+    font-size: 0.9em;
+    margin-top: 20px;
+    text-align: justify !important;
+  }
+
+  .blogPost_img{
+    min-height: 200px !important;
+    max-height: 200px !important;
+  }
+  .cerfication_col{
+    margin-top: 20px !important;
+   }
+   .cert_title{
+    font-size: 1.2em !important;
+   }
+   .supporting_text{
+    font-size: 0.7em !important;
+   }
+   .cert_card_desc{
+    font-size: 0.8em !important;
+   }
 }

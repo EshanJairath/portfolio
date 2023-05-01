@@ -21,10 +21,10 @@ function ResumeNew() {
 
   return (
     <div>
-    <Particle />
+  
       <Container fluid className="resume-section">
       
-      <h1 className="text-center mt-5 pt-3"> Have a look at My <strong className="purple"> CV. </strong> 👀</h1>
+      <h1 className="text-center pt-3"> Have a look at My <strong className="purple"> CV. </strong> 👀</h1>
         <Row className="resume ">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.6 : 0.51} height="1000" />
@@ -62,6 +62,7 @@ function ResumeNew() {
       </Row>
       <hr/>
       </div>
+      <Particle />
       </Container>
     </div>
   );

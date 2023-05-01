@@ -5,12 +5,10 @@ import { ToastContainer, toast } from 'react-toastify';
 
 
 function BlogCards(props) {
-  function handleBlog() {
-    toast('Full Blog Will be Available Soon.')
-  }
+  
   return (
 
-     <Card className='blog_card mt-4' style={{ width: '100%'}}>
+     <Card className='blog_card mt-2' style={{ width: '100%'}}>
      <Card.Body>
      <Row> 
      <Col md = {8} >
@@ -21,9 +19,8 @@ function BlogCards(props) {
      </Card.Text>
      <ToastContainer />
      <Link to={props.link}>
-    <Button className='mt-2' variant="primary">View Full Blog</Button>
+    <Button className='mt-2' variant="primary">View Full Blog here</Button>
       </Link>
-
        </Col>
        <Col md ={4}>
        <Card.Img variant='top' className='mt-3 blogPost_img mx-auto d-block' src = {props.imgPath} alt = 'blog_img'></Card.Img>

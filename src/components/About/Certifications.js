@@ -26,9 +26,9 @@ function Certifications() {
     <a href="https://drive.google.com/file/d/1gQwSm3Nci317WlYD3iJVXUTAG507bFMg/view?usp=sharing"> <Card.Img variant="top" className='certification_img'  src={proj_mg}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Foundation of Project Management</Card.Title>
+        <Card.Title className='purple cert_title'>Foundation of Project Management</Card.Title>
         <p className='supporting_text'>Issued by Google.</p>
-        <Card.Text>
+        <Card.Text className='cert_card_desc'>
         This Course covers foundational terminology and concepts of project management, along with an understanding of the roles and responsibilities of a project manager. Equip the Learners with the core skills necessary for success in project management
         </Card.Text>
         <Button className="Cert_card_btns" href="https://drive.google.com/file/d/1gQwSm3Nci317WlYD3iJVXUTAG507bFMg/view?usp=sharing">Certificate</Button>
@@ -43,12 +43,12 @@ function Certifications() {
     <a href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url"> <Card.Img variant="top" className='certification_img'  src={dp_100}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Microsoft Certified: Azure Data Scientist Associate</Card.Title>
+        <Card.Title className='purple cert_title'>Microsoft Certified: Azure Data Scientist Associate</Card.Title>
         <p className='supporting_text'>Issued by Microsoft.</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url">View Badge</Button>
+        <Button className="Cert_card_btns" href="https://www.credly.com/badges/7ff9a2f5-fd13-4569-8c32-8b0adfb6ebdd/public_url">Badge</Button>
 
         <Button className="Cert_card_btns" href="https://learn.microsoft.com/en-us/certifications/exams/dp-100">About Certification</Button>
       </Card.Body>
@@ -60,12 +60,12 @@ function Certifications() {
     <a href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={ai_900}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Microsoft Certified: Azure AI Fundamentals</Card.Title>
+        <Card.Title className='purple cert_title'>Microsoft Certified: Azure AI Fundamentals</Card.Title>
         <p className='supporting_text'>Issued by Microsoft.</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         Earners of the Azure AI Fundamentals certification have demonstrated foundational knowledge of machine learning (ML) and artificial intelligence (AI) concepts and related Microsoft Azure services.
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile">View Badge</Button>
+        <Button className="Cert_card_btns" href="https://www.credly.com/badges/b95b4fdb-b5ee-4575-9915-afdcd216fc1c?source=linked_in_profile">Badge</Button>
 
         <Button className="Cert_card_btns" href="https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/">About Certification</Button>
       </Card.Body>
@@ -78,12 +78,12 @@ function Certifications() {
     <a href="https://www.credly.com/badges/20dfa432-f24c-4021-9c49-b006ad342861?source=linked_in_profile"> <Card.Img variant="top" className='certification_img'  src={dp_900}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Microsoft Certified: Azure Data Fundamentals</Card.Title>
+        <Card.Title className='purple cert_title'>Microsoft Certified: Azure Data Fundamentals</Card.Title>
         <p className='supporting_text'>Issued by Microsoft.</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         Earners of the Azure Data Fundamentals certification have demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.
         </Card.Text>
-        <Button className="Cert_card_btns" href="https://www.credly.com/badges/20dfa432-f24c-4021-9c49-b006ad342861/public_url">View Badge</Button>
+        <Button className="Cert_card_btns" href="https://www.credly.com/badges/20dfa432-f24c-4021-9c49-b006ad342861/public_url">Badge</Button>
 
         <Button className="Cert_card_btns" href="https://learn.microsoft.com/en-us/certifications/azure-data-fundamentals/">About Certification</Button>
       </Card.Body>
@@ -97,9 +97,9 @@ function Certifications() {
     <a href="https://www.udemy.com/certificate/UC-501f8a89-94c7-4dea-92c6-da0e0a12bee2/"> <Card.Img variant="top" className='certification_img'  src={ML}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Machine Learning A-Z : Python & R in Data Science </Card.Title>
+        <Card.Title className='purple cert_title'>Machine Learning A-Z : Python & R in Data Science </Card.Title>
         <p className='supporting_text'>Issued by Udemy on (06/2021) .</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         <ul>
           <li>
           Mastered Machine Learning in Python
@@ -128,9 +128,9 @@ function Certifications() {
     <a href="https://www.udemy.com/certificate/UC-64e4a830-3991-42b9-ac5f-2adea6ba4aed/"> <Card.Img variant="top" className='certification_img'  src={DL}/></a>
 
       <Card.Body>
-        <Card.Title className='purple'>Deep Learning A-Z : Hands-on Artificial Neural Networks  </Card.Title>
+        <Card.Title className='purple cert_title'>Deep Learning A-Z : Hands-on Artificial Neural Networks  </Card.Title>
         <p className='supporting_text'>Issued by Udemy on (08/2021) .</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         <ul>
           <li>
           Gained hands on experience with Artificial, Convolutional and Recurrent Neural Networks by working on different datasets and projects.
@@ -152,9 +152,9 @@ function Certifications() {
     <a href="https://www.udemy.com/certificate/UC-9d67e1f1-f4b1-4054-91df-7bcf9c6e3618/"> <Card.Img variant="top" className='certification_img'  src={python}/></a>
 
       <Card.Body>
-        <Card.Title className='purple pt-4'>Python - The complete python bootcamp</Card.Title>
+        <Card.Title className='purple pt-4 cert_title'>Python - The complete python bootcamp</Card.Title>
         <p className='supporting_text'>Issued by Udemy on (03/2020) .</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         <ul>
           <li>
           Python 3.
@@ -190,9 +190,9 @@ function Certifications() {
     <a href="https://www.udemy.com/certificate/UC-ecac4449-0a77-470b-bd10-339e5cd7174f/"> <Card.Img variant="top" className='certification_img'  src={web}/></a>
 
       <Card.Body>
-        <Card.Title className='purple pt-4'>Web Development - The Complete web development bootcamp. </Card.Title>
+        <Card.Title className='purple pt-4 cert_title'>Web Development - The Complete web development bootcamp. </Card.Title>
         <p className='supporting_text'>Issued by Udemy on (08/2020) .</p>
-        <Card.Text>
+        <Card.Text  className='cert_card_desc'>
         <ul>
           <li>
           HTML, CSS, Javascript

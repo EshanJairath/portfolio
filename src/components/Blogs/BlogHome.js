@@ -13,7 +13,7 @@ function BlogHome() {
   return (
     <Container fluid className='blog_page'>
     
-    <Container>
+    <div className='blog_home_page'>
     <h1 className='text-center' style = {{color: 'white'}}> My <span className='purple'> Blogs 📝 </span> </h1>
 
     <p className='text-center' style={{ color: "white", fontSize:'1.4em' }}>
@@ -26,6 +26,7 @@ function BlogHome() {
     date = '25 March 2023.'
     description = 'Flask is a popular micro web framework for building web applications in Python. It is lightweight, easy to use, and allows for the creation of web applications with minimal setup and configuration. Flask is also becoming increasingly popular in machine learning engineering as it allows for the creation of web-based interfaces for machine learning models.'
     link = '/blogs/flask'
+    
     />
 
 
@@ -57,7 +58,7 @@ function BlogHome() {
     
 
    
-    </Container>
+    </div>
     <Particle/>
     </Container>
   )

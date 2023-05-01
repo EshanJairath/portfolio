@@ -17,7 +17,7 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Container>
+      <div className="project_page">
         <h1 className="project-heading text-center">
           My Recent <strong className="purple">Projects 📊 </strong>
         </h1>
@@ -28,7 +28,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         
       
-      <Col md={4} className="project-card">
+      <Col md={6} className="project-card">
         <ProjectCard
           imgPath={ships}
           isBlog={false}
@@ -40,7 +40,7 @@ function Projects() {
         />
         </Col>
 
-        <Col md={4} className="project-card">
+        <Col md={6} className="project-card">
         <ProjectCard
           imgPath={flood}
           isBlog={false}
@@ -52,7 +52,7 @@ function Projects() {
       </Col>
 
 
-      <Col md={4} className="project-card">
+      <Col md={6} className="project-card">
         <ProjectCard
           imgPath={ai_system}
           isBlog={false}
@@ -62,7 +62,7 @@ function Projects() {
         />
       </Col>
 
-        <Col md={4} className="project-card">
+        <Col md={6} className="project-card">
             <ProjectCard
               imgPath={heart}
               isBlog={false}
@@ -76,7 +76,7 @@ function Projects() {
           </Col>
 
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={Netflix}
               isBlog={false}
@@ -87,7 +87,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={imgcla}
               isBlog={false}
@@ -100,7 +100,7 @@ function Projects() {
 
           
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={fd}
               isBlog={false}
@@ -111,7 +111,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={NLP}
               isBlog={false}
@@ -122,7 +122,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={instaClone}
               isBlog={false}
@@ -133,7 +133,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
               imgPath={MB}
               isBlog={false}
@@ -152,7 +152,7 @@ function Projects() {
         <p style={{ color: "cyan", fontSize:'1.4em' }}>
         👉 checkout my GitHub.
         </p>
-      </Container>
+      </div>
     </Container>
   );
 }

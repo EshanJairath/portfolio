@@ -10,7 +10,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" className="proj_card_img" src={props.imgPath} alt="card-img" />
       <Card.Body className="proj_Card_Body">
         <Card.Title style ={{color:"cyan"}}>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify"}} className="project_desc">
           {props.description}
         </Card.Text>
 
