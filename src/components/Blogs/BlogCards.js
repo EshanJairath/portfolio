@@ -18,9 +18,11 @@ function BlogCards(props) {
        {props.description}
      </Card.Text>
      <ToastContainer />
-     <Link to={props.link}>
-    <Button className='mt-2' variant="primary">View Full Blog here</Button>
-      </Link>
+     <a href={props.link} target="_blank" rel="noopener noreferrer">
+              <Button className="mt-2" variant="primary">
+                View Full Blog here
+              </Button>
+            </a>
        </Col>
        <Col md ={4}>
        <Card.Img variant='top' className='mt-3 blogPost_img mx-auto d-block' src = {props.imgPath} alt = 'blog_img'></Card.Img>

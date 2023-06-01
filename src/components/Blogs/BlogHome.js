@@ -6,6 +6,8 @@ import diff_pri from '../../Assets/Blogs/diff_pri.png'
 import data_drift from '../../Assets/Blogs/data_drift.png'
 import strat from '../../Assets/Blogs/stratified.jpg'
 import flask from '../../Assets/Blogs/Flask.jpeg'
+import rl from '../../Assets/Blogs/R.jpeg'
+import { Link } from 'react-router-dom'
 
 
 function BlogHome() {
@@ -19,6 +21,15 @@ function BlogHome() {
     <p className='text-center' style={{ color: "white", fontSize:'1.4em' }}>
           I post all my blogs Here 👇
     </p>
+
+
+    <BlogCards
+    imgPath = {rl}
+    title = 'A simple intro to Reinforcement Learning'
+    date = '01 June 2023.'
+    description = 'Reinforcement learning (RL) is a type of machine learning that involves training an agent to make decisions in an environment by rewarding it for good decisions and punishing it for bad ones. It has been used in many applications such as robotics, gaming, and autonomous vehicles'
+    link="https://eshanjairath.hashnode.dev/simple-intro-to-reinforcement-learning"
+/>
 
     <BlogCards
     imgPath = {flask}
