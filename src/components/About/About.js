@@ -103,30 +103,7 @@ function About(props) {
         </li>
         </ul>
         
-      </div>
-      
-    </ListGroup.Item>
-
-    <ListGroup.Item
-      as="li"
-      className="d-flex justify-content-between align-items-start"
-    >
-      <div className=" me-auto">
-        <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Junior AI Engineer 🤖
-        </p>
-        <p Style="font-size:1.6em" className="m-0 list_grp_org"> Print it Out, New Delhi, India 🇮🇳 </p>
-        <p Style="font-size:1.2em" className="dark_color"> May 2021 – Aug 2021</p>
-        <ul className='m-3'>
-        <li className="about_list_item">Gathering the necessary facial data, pre-processing it, training, testing, and evaluating the models in real-world 
-        scenarios by detecting the faces of the team members in real time
-        </li>
-        <br/>
-        <li className="about_list_item">Boosted the Accuracy of the face detection algorithm to <span style={{ color: "green" }}> 91%</span> 🤩  on the testing data by choosing the right configuration of the necessary computer vision models, certain image pre-processing techniques and hyper-parameter tuning 🛠️ .</li>
-        </ul>
-
-        
-      </div>
-      
+      </div>      
     </ListGroup.Item>
 
     <ListGroup.Item
@@ -134,19 +111,25 @@ function About(props) {
     className="d-flex justify-content-between align-items-start"
   >
     <div className=" me-auto">
-      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title">Software Engineer 🧑‍💻
+      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> Data Science Intern 🚀
       </p>
-      <p Style="font-size:1.6em" className="m-0 list_grp_org">Pixxmo, New Delhi, India 🇮🇳 </p>
-      <p Style="font-size:1.2em" className="dark_color"> Nov 2020 – May 2021</p>
+      <p Style="font-size:1.8em" className="m-0 list_grp_org"> Capgemini , New Delhi 🇮🇳 </p>
+      <p Style="font-size:1.2em" className="dark_color">Dec 2020 – May 2021</p>
       <ul className='m-3'>
-      <li className="about_list_item">Developed system analysis reports and system designs in accordance with the requirements of the projects after closely collaborating with clients and various teams
+      <li className="about_list_item">
+      Developed and fine-tuned machine learning models, including regression, classification, and clustering algorithms, to solve real-world business challenges 👍 and optimize decision-making processes for potential clients. 
       </li>
       <br/>
-      <li className="about_list_item">Reduced the workload of the entire team by <span style={{ color: "orange" }}>50%</span> 📉 by employing Third-party cloud APIs in the systems and building software/Applications according to the finalized system designs and reports.</li>
+      <li className="about_list_item">Designed and implemented data visualization 📈 dashboards using Power BI, effectively communicating complex findings to stakeholders and driving data-informed decision-making. </li>
+      <br/>
+      <li className="about_list_item">Assisted in the development of data pipelines ⚙️ and ETL (Extract, Transform, Load) processes, ensuring efficient data integration and maintenance.
+      </li>
       </ul>
+      
     </div>
     
   </ListGroup.Item>
+    
    
   </ListGroup>
     </div> 
