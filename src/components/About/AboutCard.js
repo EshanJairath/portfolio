@@ -29,15 +29,7 @@ function AboutCard() {
 
       
             <br/>
-            <p> What keeps me going - </p>
             
-            <div className="blockquote">
-
-          <p className="quote" style={{ color: "rgb(155 126 172)" }}>
-            " Every Great Warrior was once a defenceless child, continuously learning, evolving and waiting for his opportunity to incentivize the world. " {" "}
-          </p>
-          <footer className="blockquote-footer">Eshan Jairath</footer>
-        </div>
       </Card.Body>
     </Card>
 

@@ -24,8 +24,7 @@ function About(props) {
       <Particle />
       <div>
         <Row className="about_comp ">
-        <hr/>
-        
+       <hr/>
         <Col
             md={7}
             style={{
@@ -36,23 +35,46 @@ function About(props) {
           >
           
             <h1  className="text-center" style={{ fontSize: "2em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M 😀</strong>
+              Know Who <strong className="purple">I'M 😎</strong>
             <hr/>
             </h1>
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "20px", paddingBottom: "10px" }}
-            className="about-img"
-          >
-          <Tilt>
-            <img src={CoverImg} alt="about" className="about_cover_img" data-tip data-for="me_2"/>
-            </Tilt>
-            <ReactTooltip id="me_2" place="bottom" type="light"   effect="solid">
-            👆 This is also Me. 😎
-            </ReactTooltip>
-          </Col>
+  md={5}
+  style={{
+    paddingTop: "20px",
+    paddingBottom: "10px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  }}
+  className="about-img"
+>
+  <Tilt>
+    <img
+      src={CoverImg}
+      alt="about"
+      className="about_cover_img"
+      data-tip
+      data-for="me_2"
+    />
+  </Tilt>
+  <ReactTooltip id="me_2" place="bottom" type="light" effect="solid">
+    👆 This is also Me. 😎
+  </ReactTooltip>
+</Col>
+
+<hr/>
+          <p>🎯 What keeps me going 👇 - </p>
+            
+            <div className="blockquote">
+
+          <p className="quote" style={{ color: "rgb(155 126 172)" }}>
+            <i>" Every formidable warrior emerged from the cocoon of vulnerability, evolving through ceaseless learning and patiently biding their time for the moment to inspire the world. " </i> {" "}
+          </p>
+          <footer className="blockquote-footer">Eshan Jairath</footer>
+        </div>
           <hr/>
         </Row>
         
@@ -64,10 +86,34 @@ function About(props) {
     className="d-flex justify-content-between align-items-start"
   >
     <div className=" me-auto">
+      <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> Data Scientist 🤩
+      </p>
+      <p Style="font-size:1.8em" className="m-0 list_grp_org"> Domino Printing Sciences , Cambridge 🇬🇧 </p>
+      <p Style="font-size:1.2em" className="dark_color">Jan 2024 - Present 🟢</p>
+      <ul className='m-3'>
+      <li className="about_list_item">
+      As a Data Scientist at Domino Printing Sciences, I play a pivotal role in leveraging data to drive innovation and optimize printing processes. 
+      </li>
+      <br/>
+      <li className="about_list_item"> Developing and implementing predictive models to optimize printing processes, enhancing efficiency and performance. </li>
+      <br/>
+      <li className="about_list_item"> Collaborating with cross-functional teams to integrate data-driven solutions into the software space, contributing to the company's expansion.
+      </li>
+      </ul>
+      
+    </div>
+  
+  </ListGroup.Item>
+    
+    <ListGroup.Item
+    as="li"
+    className="d-flex justify-content-between align-items-start"
+  >
+    <div className=" me-auto">
       <p Style="font-size:2em" className="fw-bold m-0 list_grp_title"> AI Engineer 💡
       </p>
       <p Style="font-size:1.8em" className="m-0 list_grp_org"> IMIS Global , Newcastle 🇬🇧 </p>
-      <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Present 🟢</p>
+      <p Style="font-size:1.2em" className="dark_color">Feb 2023 - Nov 2023</p>
       <ul className='m-3'>
       <li className="about_list_item">
       Designing enhanced capabilities to smooth the movement of shipping 🚢 at local, regional and ultimately global levels. 
