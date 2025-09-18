@@ -13,7 +13,7 @@ function AboutCard() {
        
           <p className="about_text" style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Eshan Jairath </span>
-            from New Delhi, India currenlty living in Newcastle Upon Tyne, United Kingdom. 
+            from New Delhi, India currenlty living in Cambridge, United Kingdom. 
             As a skilled individual, I have expertise in a range of fields related to computer science🧑‍💻 and artificial intelligence 🤖. I have a deep understanding of data structures and algorithms, with a strong background in programming, specifically in Python 🐍 and JavaScript. 
             <br/>
             </p>
